@@ -1,0 +1,99 @@
+{
+  "company_name": "Venezuela Advisory",
+  "tagline": "Your Trusted Partner in Venezuela",
+  "hero_headline": "Enter Venezuela with Confidence. We Handle the Complexity.",
+  "hero_subheadline": "From company setup and regulatory compliance to local representation and talent sourcing, we provide the on-the-ground expertise international companies need to operate successfully in Venezuela.",
+  "hero_cta_primary": "Request a Consultation",
+  "hero_cta_secondary": "Explore Our Services",
+  "about_headline": "Your Trusted Partner in Venezuela",
+  "about_body": "We provide hands-on business advisory and operational support for foreign and local companies navigating Venezuela's regulatory environment. Our focus is practical execution, compliance, and reliable on-the-ground solutions. From market entry to ongoing operations, we coordinate every step with local authorities and partners.",
+  "why_us": [
+    {
+      "icon": "🏛️",
+      "title": "Local Expertise with International Standards",
+      "description": "We combine deep knowledge of Venezuela's regulatory landscape with international best practices. Our team ensures your operations meet both local requirements and global expectations."
+    },
+    {
+      "icon": "🤝",
+      "title": "Direct Coordination with Authorities",
+      "description": "We liaise directly with government agencies, registries, and regulatory bodies on your behalf. This ensures faster processing and fewer obstacles in your business setup."
+    },
+    {
+      "icon": "✅",
+      "title": "Reliable Execution and Follow-Through",
+      "description": "We manage every step from filing to approval, keeping you informed throughout. Our hands-on approach means nothing falls through the cracks."
+    },
+    {
+      "icon": "🔒",
+      "title": "Confidential and Professional Service",
+      "description": "We handle all engagements with strict confidentiality and professionalism. Your business plans and operations remain secure with us."
+    }
+  ],
+  "services": [
+    {
+      "title": "Market Entry & Company Setup",
+      "description": "Company incorporation, commercial registry registration, Tax ID (RIF) processing, registration with tax and labor authorities, and support with local bank account opening.",
+      "icon": "🏢"
+    },
+    {
+      "title": "Permits & Regulatory Management",
+      "description": "Municipal business licenses, industry-specific permits, sanitary registrations, renewals and compliance follow-up to keep your operations fully authorized.",
+      "icon": "📋"
+    },
+    {
+      "title": "Legal Coordination",
+      "description": "Corporate legal support, contract drafting and review, and labor law coordination through trusted partner firms.",
+      "icon": "⚖️"
+    },
+    {
+      "title": "Local Representation & Back Office",
+      "description": "Fiscal address services, local legal representative appointment, and official notification handling for your company in Venezuela.",
+      "icon": "📍"
+    },
+    {
+      "title": "Real Estate & Relocation Support",
+      "description": "Office and commercial space search, warehouse and industrial facilities sourcing, and residential housing for executives relocating to Venezuela.",
+      "icon": "🏠"
+    },
+    {
+      "title": "Talent Search & Hiring Support",
+      "description": "Local talent sourcing, executive search, and hiring coordination to build your team with qualified Venezuelan professionals.",
+      "icon": "👥"
+    }
+  ],
+  "how_it_works": [
+    {
+      "step": 1,
+      "title": "Initial Consultation",
+      "description": "Contact us to discuss your business needs, timeline, and objectives for entering or operating in Venezuela."
+    },
+    {
+      "step": 2,
+      "title": "Strategy & Planning",
+      "description": "We assess regulatory requirements, identify necessary permits and registrations, and develop a tailored action plan for your operation."
+    },
+    {
+      "step": 3,
+      "title": "Execution & Coordination",
+      "description": "We handle filings, registrations, permits, and coordination with local authorities and partners on your behalf."
+    },
+    {
+      "step": 4,
+      "title": "Ongoing Support",
+      "description": "We provide continued compliance tracking, renewals, local representation, and operational support as your business grows."
+    }
+  ],
+  "cta_headline": "Ready to Operate in Venezuela?",
+  "cta_body": "Contact us to discuss your business needs and learn how we can help you navigate Venezuela's regulatory environment with confidence.",
+  "cta_button": "Get in Touch",
+  "contact_email": "info@venezuelaadvisory.com",
+  "contact_phone": "+58 212 5644313 / 5643321",
+  "brand_voice": "Professional, reliable, direct, and service-oriented with a focus on practical execution and compliance",
+  "industry": "Business Advisory & Consulting – Market Entry and Operations in Venezuela",
+  "footer_tagline": "Your Trusted Partner for Business Operations in Venezuela",
+  "nav_links": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Contact", "href": "#contact" }
+  ]
+}

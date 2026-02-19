@@ -1,0 +1,39 @@
+import type { Config } from 'tailwindcss'
+
+export default {
+  content: [
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './app.vue',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          500: '#303775',
+          700: '#262955',
+          900: '#1D1D3F',
+        },
+        accent: {
+          400: '#C0AB58',
+          500: '#B09948',
+        },
+        neutral: {
+          50: '#F8F6F1',
+          100: '#F1EDE4',
+        },
+      },
+      fontFamily: {
+        sans: ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Montserrat', 'DM Sans', 'sans-serif'],
+      },
+      borderRadius: {
+        card: '0.75rem',
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
+} satisfies Config
