@@ -1,37 +1,37 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import * as Vue from 'file:///Users/fpolania/VAS/landing/node_modules/vue/index.mjs';
-import { hasInjectionContext, getCurrentInstance as getCurrentInstance$1, inject, computed, shallowRef, defineComponent, createElementBlock, provide, cloneVNode, h, ref, Suspense, Fragment, createApp, createVNode, Text, shallowReactive, onErrorCaptured, onServerPrefetch, unref, resolveDynamicComponent, reactive, effectScope, defineAsyncComponent, mergeProps, getCurrentScope, toRef, isReadonly, useSSRContext, isRef, isShallow, isReactive, toRaw } from 'file:///Users/fpolania/VAS/landing/node_modules/vue/index.mjs';
-import { $fetch as $fetch$1 } from 'file:///Users/fpolania/VAS/landing/node_modules/ofetch/dist/node.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import * as Vue from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/index.mjs';
+import { hasInjectionContext, getCurrentInstance as getCurrentInstance$1, inject, computed, shallowRef, defineComponent, createElementBlock, provide, cloneVNode, h, ref, Suspense, Fragment, createApp, createVNode, Text, shallowReactive, onErrorCaptured, onServerPrefetch, unref, resolveDynamicComponent, reactive, effectScope, defineAsyncComponent, mergeProps, getCurrentScope, toRef, isReadonly, useSSRContext, isRef, isShallow, isReactive, toRaw } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/index.mjs';
+import { $fetch as $fetch$1 } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ofetch/dist/node.mjs';
 import { l as baseURL } from '../nitro/nitro.mjs';
-import { createHooks } from 'file:///Users/fpolania/VAS/landing/node_modules/hookable/dist/index.mjs';
-import { getContext, executeAsync } from 'file:///Users/fpolania/VAS/landing/node_modules/unctx/dist/index.mjs';
-import { sanitizeStatusCode, createError as createError$1, getRequestURL, appendHeader, getRequestHeader, getCookie, setCookie, deleteCookie } from 'file:///Users/fpolania/VAS/landing/node_modules/h3/dist/index.mjs';
-import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/fpolania/VAS/landing/node_modules/vue-router/vue-router.node.mjs';
-import { createDefu, defu } from 'file:///Users/fpolania/VAS/landing/node_modules/defu/dist/defu.mjs';
-import { parseURL, encodePath, decodePath, hasProtocol, isScriptProtocol, joinURL, withQuery, parsePath, parseQuery, withoutTrailingSlash } from 'file:///Users/fpolania/VAS/landing/node_modules/ufo/dist/index.mjs';
-import { klona } from 'file:///Users/fpolania/VAS/landing/node_modules/klona/dist/index.mjs';
-import { parse as parse$1 } from 'file:///Users/fpolania/VAS/landing/node_modules/nuxt/node_modules/cookie-es/dist/index.mjs';
-import destr from 'file:///Users/fpolania/VAS/landing/node_modules/destr/dist/index.mjs';
-import { isEqual } from 'file:///Users/fpolania/VAS/landing/node_modules/nuxt/node_modules/ohash/dist/index.mjs';
-import { setupDevtoolsPlugin } from 'file:///Users/fpolania/VAS/landing/node_modules/vue-devtools-stub/dist/index.mjs';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'file:///Users/fpolania/VAS/landing/node_modules/vue/server-renderer/index.mjs';
+import { createHooks } from 'file:///Users/fpolania/repos/vas/landing/node_modules/hookable/dist/index.mjs';
+import { getContext, executeAsync } from 'file:///Users/fpolania/repos/vas/landing/node_modules/unctx/dist/index.mjs';
+import { sanitizeStatusCode, createError as createError$1, getRequestURL, appendHeader, getRequestHeader, getCookie, setCookie, deleteCookie } from 'file:///Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs';
+import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-router/vue-router.node.mjs';
+import { createDefu, defu } from 'file:///Users/fpolania/repos/vas/landing/node_modules/defu/dist/defu.mjs';
+import { parseURL, encodePath, decodePath, hasProtocol, isScriptProtocol, joinURL, withQuery, parsePath, parseQuery, withoutTrailingSlash } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ufo/dist/index.mjs';
+import { klona } from 'file:///Users/fpolania/repos/vas/landing/node_modules/klona/dist/index.mjs';
+import { parse as parse$1 } from 'file:///Users/fpolania/repos/vas/landing/node_modules/nuxt/node_modules/cookie-es/dist/index.mjs';
+import destr from 'file:///Users/fpolania/repos/vas/landing/node_modules/destr/dist/index.mjs';
+import { isEqual } from 'file:///Users/fpolania/repos/vas/landing/node_modules/nuxt/node_modules/ohash/dist/index.mjs';
+import { setupDevtoolsPlugin } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-devtools-stub/dist/index.mjs';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/server-renderer/index.mjs';
 import { u as useHead$1, a as useSeoMeta$1, h as headSymbol } from '../_/renderer.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/node-mock-http/dist/index.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unstorage/dist/index.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/node-mock-http/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unstorage/drivers/fs.mjs';
 import 'node:crypto';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/scule/dist/index.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/radix3/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/scule/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/radix3/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file:///Users/fpolania/VAS/landing/node_modules/pathe/dist/index.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unhead/dist/server.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/devalue/index.js';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unhead/dist/plugins.mjs';
-import 'file:///Users/fpolania/VAS/landing/node_modules/unhead/dist/utils.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unhead/dist/server.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/devalue/index.js';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unhead/dist/plugins.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/unhead/dist/utils.mjs';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch$1.create({
@@ -428,7 +428,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-Q-qbSMcd.mjs')
+    component: () => import('./index-BURpy2sJ.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -1238,65 +1238,76 @@ const localeCodes = [
   "fr",
   "de",
   "he",
-  "zh-TW"
+  "zh-TW",
+  "tr"
 ];
 const localeLoaders = {
   en: [
     {
-      key: "locale_en_46json_57cc7a40",
+      key: "locale_en_46json_f7ad1dff",
       load: () => import(
-        './en-CAdhsHMG.mjs'
-        /* webpackChunkName: "locale_en_46json_57cc7a40" */
+        './en-GMxP7hyt.mjs'
+        /* webpackChunkName: "locale_en_46json_f7ad1dff" */
       ),
       cache: true
     }
   ],
   es: [
     {
-      key: "locale_es_46json_f51a9530",
+      key: "locale_es_46json_755fd8a8",
       load: () => import(
-        './es-CJLM1xvq.mjs'
-        /* webpackChunkName: "locale_es_46json_f51a9530" */
+        './es-BEb8mBf2.mjs'
+        /* webpackChunkName: "locale_es_46json_755fd8a8" */
       ),
       cache: true
     }
   ],
   fr: [
     {
-      key: "locale_fr_46json_dcf9baab",
+      key: "locale_fr_46json_b42475c1",
       load: () => import(
-        './fr-CPkI1sEN.mjs'
-        /* webpackChunkName: "locale_fr_46json_dcf9baab" */
+        './fr-Cjp-Yo5b.mjs'
+        /* webpackChunkName: "locale_fr_46json_b42475c1" */
       ),
       cache: true
     }
   ],
   de: [
     {
-      key: "locale_de_46json_0ac38434",
+      key: "locale_de_46json_56947012",
       load: () => import(
-        './de-C1TavVrz.mjs'
-        /* webpackChunkName: "locale_de_46json_0ac38434" */
+        './de-B_pWZDCO.mjs'
+        /* webpackChunkName: "locale_de_46json_56947012" */
       ),
       cache: true
     }
   ],
   he: [
     {
-      key: "locale_he_46json_d28a2f5f",
+      key: "locale_he_46json_669c5187",
       load: () => import(
-        './he-C-TWOpsa.mjs'
-        /* webpackChunkName: "locale_he_46json_d28a2f5f" */
+        './he-BYOV2tCX.mjs'
+        /* webpackChunkName: "locale_he_46json_669c5187" */
       ),
       cache: true
     }
   ],
   "zh-TW": [
     {
-      key: "locale_zh_45TW_46json_200b8ae6",
+      key: "locale_zh_45TW_46json_9d6a2e18",
       load: () => import(
-        './zh-TW-D25CNqLk.mjs'
-        /* webpackChunkName: "locale_zh_45TW_46json_200b8ae6" */
+        './zh-TW-7pCrAUEI.mjs'
+        /* webpackChunkName: "locale_zh_45TW_46json_9d6a2e18" */
+      ),
+      cache: true
+    }
+  ],
+  tr: [
+    {
+      key: "locale_tr_46json_99232a3d",
+      load: () => import(
+        './tr-BjYZJIV4.mjs'
+        /* webpackChunkName: "locale_tr_46json_99232a3d" */
       ),
       cache: true
     }
@@ -1333,6 +1344,11 @@ const normalizedLocales = [
   {
     code: "zh-TW",
     name: "中文（繁）",
+    language: void 0
+  },
+  {
+    code: "tr",
+    name: "Türkçe",
     language: void 0
   }
 ];
@@ -1631,7 +1647,7 @@ function createNuxtI18nContext(nuxt, vueI18n, defaultLocale) {
       return;
     }
     const headers = getLocaleConfig(locale)?.cacheable ? {} : { "Cache-Control": "no-cache" };
-    const messages = await $fetch(`${"/_i18n/TM1F8G76"}/${locale}/messages.json`, { headers });
+    const messages = await $fetch(`${"/_i18n/9PYTRecF"}/${locale}/messages.json`, { headers });
     for (const k of Object.keys(messages)) {
       i18n.mergeLocaleMessage(k, messages[k]);
     }
@@ -6568,7 +6584,7 @@ const i18n_EI7LsD1KYQADczz5hrChviGQCdVM8yUkvFEZLJpmnvM = /* @__PURE__ */ defineN
     {
       localeConfigs.value = useRequestEvent().context.nuxtI18n?.localeConfigs || {};
     }
-    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/TM1F8G76"}/${locale}/messages.json`));
+    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/9PYTRecF"}/${locale}/messages.json`));
     const i18n = createI18n(optionsI18n);
     const detectors = useDetectors(useRequestEvent(nuxt), useI18nDetection(nuxt), nuxt);
     const ctx = createNuxtI18nContext(nuxt, i18n, optionsI18n.defaultLocale);
@@ -6807,8 +6823,8 @@ const _sfc_main$1 = {
     const statusText = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-BZKk36En.mjs'));
-    const _Error = defineAsyncComponent(() => import('./error-500-CD8bSLkg.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-BNXK8bOs.mjs'));
+    const _Error = defineAsyncComponent(() => import('./error-500-oFa9F2FI.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ status: unref(status), statusText: unref(statusText), statusCode: unref(status), statusMessage: unref(statusText), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));

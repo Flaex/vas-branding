@@ -38,3 +38,6 @@ yarn-error.log*
 
 # Generated assets
 assets/generated/
+
+# Local Netlify folder
+.netlify

@@ -52,9 +52,15 @@
 
       <!-- Bottom bar -->
       <div class="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p class="text-white/40 text-xs">
-          &copy; {{ new Date().getFullYear() }} Venezuela Advisory Services. {{ t('footer_rights') }}
-        </p>
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <p class="text-white/40 text-xs">
+            &copy; {{ new Date().getFullYear() }} Venezuela Advisory Services. {{ t('footer_rights') }}
+          </p>
+          <span class="hidden sm:block text-white/20 text-xs">·</span>
+          <p class="text-white/30 text-xs flex items-center gap-2">
+            {{ t('footer_made_by') }} <a href="https://novanet.studio/" target="_blank" rel="noopener noreferrer"><img src="/novanet-logo-2025.svg" alt="Novanet" class="h-4 w-auto opacity-50 hover:opacity-100 transition-opacity duration-200" /></a>
+          </p>
+        </div>
         <div class="flex items-center gap-4">
           <p class="text-white/30 text-xs">
             {{ t('footer_confidential') }}

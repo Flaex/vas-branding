@@ -1,10 +1,10 @@
 const interopDefault = r => r.default || r || []
 export default {
-  "node_modules/nuxt/dist/app/entry.js": () => import('./_nuxt/entry-styles.BEjNi06Z.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/entry.js": () => import('./_nuxt/entry-styles.Bbyqphuq.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue": () => import('./_nuxt/error-404-styles.CiJjK6WX.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-500.vue": () => import('./_nuxt/error-500-styles.ulHNpcF1.mjs').then(interopDefault),
-  "node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=a01dd0ba&lang.css": () => import('./_nuxt/error-500-styles.ulHNpcF1.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue?vue&type=style&index=0&scoped=1bd9e11a&lang.css": () => import('./_nuxt/error-404-styles.CiJjK6WX.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=a01dd0ba&lang.css": () => import('./_nuxt/error-500-styles.ulHNpcF1.mjs').then(interopDefault),
   "components/ui/LanguageSelector.vue": () => import('./_nuxt/LanguageSelector-styles.3pMJpbqr.mjs').then(interopDefault),
   "components/ui/SuccessModal.vue": () => import('./_nuxt/SuccessModal-styles.DN2jqJli.mjs').then(interopDefault),
   "components/ui/LanguageSelector.vue?vue&type=style&index=0&scoped=9baa3363&lang.css": () => import('./_nuxt/LanguageSelector-styles.3pMJpbqr.mjs').then(interopDefault),

@@ -1,4 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
-  <polygon points="4,4 24,4 44,44 36,44 24,18 12,44 4,44" fill="#1B2A4A"/>
-  <polygon points="24,18 32,34 36,44 28,44" fill="#C9963A"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 48">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #b49737;
+      }
+
+      .st1 {
+        fill: #5a5b70;
+      }
+
+      .st2 {
+        fill: #e3d378;
+      }
+
+      .st3 {
+        fill: #1d1d41;
+      }
+    </style>
+  </defs>
+  <polygon class="st2" points="9.28 12.67 24.01 4 24.01 19.48 9.28 28.15 9.28 12.67"/>
+  <polygon class="st0" points="38.72 12.67 23.99 4 23.99 19.48 38.72 28.15 38.72 12.67"/>
+  <polygon class="st3" points="9.28 35.33 24.01 44 24.01 28.52 9.28 19.85 9.28 35.33"/>
+  <polygon class="st1" points="38.72 35.33 23.99 44 23.99 28.52 38.72 19.85 38.72 35.33"/>
 </svg>

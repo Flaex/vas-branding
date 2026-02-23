@@ -7,9 +7,10 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "/Users/fpolania/VAS/landing/.output/public"
+publish = "/Users/fpolania/repos/vas/landing/.output/public"
 publishOrigin = "config"
 commandOrigin = "config"
+base = "/Users/fpolania/repos/vas/landing"
 command = "npm run generate"
 
 [build.environment]

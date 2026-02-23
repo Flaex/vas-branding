@@ -1,4 +1,4 @@
-import { escapeHtml } from 'file:///Users/fpolania/VAS/landing/node_modules/@vue/shared/dist/shared.cjs.prod.js';
+import { escapeHtml } from 'file:///Users/fpolania/repos/vas/landing/node_modules/@vue/shared/dist/shared.cjs.prod.js';
 
 const _messages = {
 	"appName": "Nuxt",

@@ -1,7 +1,7 @@
 {
-  "_hash": "9ozLUPfVaRsoQ4C_9ysp94x5l1v6j70vlRB_Y0lZg28",
+  "_hash": "1USLka2M4QhZUukA4HwSuZrI0tXSP-N8rWQmyFQvuzw",
   "project": {
-    "rootDir": "/Users/fpolania/VAS/landing"
+    "rootDir": "/Users/fpolania/repos/vas/landing"
   },
   "versions": {
     "nuxt": "3.21.1"

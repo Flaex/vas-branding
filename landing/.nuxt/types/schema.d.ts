@@ -97,6 +97,10 @@ import { NuxtModule, ModuleDependencyMeta } from '@nuxt/schema'
          "zh-TW": {
             domain: string,
          },
+
+         tr: {
+            domain: string,
+         },
       },
    },
   }

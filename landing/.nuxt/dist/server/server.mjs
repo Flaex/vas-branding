@@ -1,18 +1,18 @@
 import * as Vue from "vue";
 import { shallowReactive, reactive, effectScope, getCurrentScope, hasInjectionContext, getCurrentInstance as getCurrentInstance$1, inject, toRef, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw, defineComponent, createElementBlock, provide, cloneVNode, h, ref, unref, computed, Fragment, createVNode, Text, Suspense, useSSRContext, defineAsyncComponent, mergeProps, onErrorCaptured, onServerPrefetch, resolveDynamicComponent, createApp } from "vue";
-import { $fetch as $fetch$1 } from "/Users/fpolania/VAS/landing/node_modules/ofetch/dist/node.mjs";
+import { $fetch as $fetch$1 } from "/Users/fpolania/repos/vas/landing/node_modules/ofetch/dist/node.mjs";
 import { baseURL } from "#internal/nuxt/paths";
-import { createHooks } from "/Users/fpolania/VAS/landing/node_modules/hookable/dist/index.mjs";
-import { getContext, executeAsync } from "/Users/fpolania/VAS/landing/node_modules/unctx/dist/index.mjs";
-import { sanitizeStatusCode, createError as createError$1, appendHeader, getRequestHeader, setCookie, getCookie, deleteCookie, getRequestURL } from "/Users/fpolania/VAS/landing/node_modules/h3/dist/index.mjs";
+import { createHooks } from "/Users/fpolania/repos/vas/landing/node_modules/hookable/dist/index.mjs";
+import { getContext, executeAsync } from "/Users/fpolania/repos/vas/landing/node_modules/unctx/dist/index.mjs";
+import { sanitizeStatusCode, createError as createError$1, appendHeader, getRequestHeader, setCookie, getCookie, deleteCookie, getRequestURL } from "/Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs";
 import { START_LOCATION, createMemoryHistory, createRouter, RouterView } from "vue-router";
-import { defu, createDefu } from "/Users/fpolania/VAS/landing/node_modules/defu/dist/defu.mjs";
-import { hasProtocol, joinURL, withQuery, parseURL, encodePath, decodePath, isScriptProtocol, parsePath, parseQuery, withoutTrailingSlash } from "/Users/fpolania/VAS/landing/node_modules/ufo/dist/index.mjs";
-import { klona } from "/Users/fpolania/VAS/landing/node_modules/klona/dist/index.mjs";
-import { parse as parse$1 } from "/Users/fpolania/VAS/landing/node_modules/nuxt/node_modules/cookie-es/dist/index.mjs";
-import destr from "/Users/fpolania/VAS/landing/node_modules/destr/dist/index.mjs";
-import { isEqual } from "/Users/fpolania/VAS/landing/node_modules/nuxt/node_modules/ohash/dist/index.mjs";
-import { useSeoMeta as useSeoMeta$1, headSymbol, useHead as useHead$1 } from "/Users/fpolania/VAS/landing/node_modules/@unhead/vue/dist/index.mjs";
+import { defu, createDefu } from "/Users/fpolania/repos/vas/landing/node_modules/defu/dist/defu.mjs";
+import { hasProtocol, joinURL, withQuery, parseURL, encodePath, decodePath, isScriptProtocol, parsePath, parseQuery, withoutTrailingSlash } from "/Users/fpolania/repos/vas/landing/node_modules/ufo/dist/index.mjs";
+import { klona } from "/Users/fpolania/repos/vas/landing/node_modules/klona/dist/index.mjs";
+import { parse as parse$1 } from "/Users/fpolania/repos/vas/landing/node_modules/nuxt/node_modules/cookie-es/dist/index.mjs";
+import destr from "/Users/fpolania/repos/vas/landing/node_modules/destr/dist/index.mjs";
+import { isEqual } from "/Users/fpolania/repos/vas/landing/node_modules/nuxt/node_modules/ohash/dist/index.mjs";
+import { useSeoMeta as useSeoMeta$1, headSymbol, useHead as useHead$1 } from "/Users/fpolania/repos/vas/landing/node_modules/@unhead/vue/dist/index.mjs";
 import { setupDevtoolsPlugin } from "@vue/devtools-api";
 import { ssrRenderAttrs, ssrRenderComponent, ssrRenderSuspense, ssrRenderVNode } from "vue/server-renderer";
 if (!globalThis.$fetch) {
@@ -410,7 +410,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-Q-qbSMcd.js")
+    component: () => import("./_nuxt/index-BURpy2sJ.js")
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -1226,65 +1226,76 @@ const localeCodes = [
   "fr",
   "de",
   "he",
-  "zh-TW"
+  "zh-TW",
+  "tr"
 ];
 const localeLoaders = {
   en: [
     {
-      key: "locale_en_46json_57cc7a40",
+      key: "locale_en_46json_f7ad1dff",
       load: () => import(
-        "./_nuxt/en-CAdhsHMG.js"
-        /* webpackChunkName: "locale_en_46json_57cc7a40" */
+        "./_nuxt/en-GMxP7hyt.js"
+        /* webpackChunkName: "locale_en_46json_f7ad1dff" */
       ),
       cache: true
     }
   ],
   es: [
     {
-      key: "locale_es_46json_f51a9530",
+      key: "locale_es_46json_755fd8a8",
       load: () => import(
-        "./_nuxt/es-CJLM1xvq.js"
-        /* webpackChunkName: "locale_es_46json_f51a9530" */
+        "./_nuxt/es-BEb8mBf2.js"
+        /* webpackChunkName: "locale_es_46json_755fd8a8" */
       ),
       cache: true
     }
   ],
   fr: [
     {
-      key: "locale_fr_46json_dcf9baab",
+      key: "locale_fr_46json_b42475c1",
       load: () => import(
-        "./_nuxt/fr-CPkI1sEN.js"
-        /* webpackChunkName: "locale_fr_46json_dcf9baab" */
+        "./_nuxt/fr-Cjp-Yo5b.js"
+        /* webpackChunkName: "locale_fr_46json_b42475c1" */
       ),
       cache: true
     }
   ],
   de: [
     {
-      key: "locale_de_46json_0ac38434",
+      key: "locale_de_46json_56947012",
       load: () => import(
-        "./_nuxt/de-C1TavVrz.js"
-        /* webpackChunkName: "locale_de_46json_0ac38434" */
+        "./_nuxt/de-B_pWZDCO.js"
+        /* webpackChunkName: "locale_de_46json_56947012" */
       ),
       cache: true
     }
   ],
   he: [
     {
-      key: "locale_he_46json_d28a2f5f",
+      key: "locale_he_46json_669c5187",
       load: () => import(
-        "./_nuxt/he-C-TWOpsa.js"
-        /* webpackChunkName: "locale_he_46json_d28a2f5f" */
+        "./_nuxt/he-BYOV2tCX.js"
+        /* webpackChunkName: "locale_he_46json_669c5187" */
       ),
       cache: true
     }
   ],
   "zh-TW": [
     {
-      key: "locale_zh_45TW_46json_200b8ae6",
+      key: "locale_zh_45TW_46json_9d6a2e18",
       load: () => import(
-        "./_nuxt/zh-TW-D25CNqLk.js"
-        /* webpackChunkName: "locale_zh_45TW_46json_200b8ae6" */
+        "./_nuxt/zh-TW-7pCrAUEI.js"
+        /* webpackChunkName: "locale_zh_45TW_46json_9d6a2e18" */
+      ),
+      cache: true
+    }
+  ],
+  tr: [
+    {
+      key: "locale_tr_46json_99232a3d",
+      load: () => import(
+        "./_nuxt/tr-BjYZJIV4.js"
+        /* webpackChunkName: "locale_tr_46json_99232a3d" */
       ),
       cache: true
     }
@@ -1321,6 +1332,11 @@ const normalizedLocales = [
   {
     code: "zh-TW",
     name: "中文（繁）",
+    language: void 0
+  },
+  {
+    code: "tr",
+    name: "Türkçe",
     language: void 0
   }
 ];
@@ -1619,7 +1635,7 @@ function createNuxtI18nContext(nuxt, vueI18n, defaultLocale) {
       return;
     }
     const headers = getLocaleConfig(locale)?.cacheable ? {} : { "Cache-Control": "no-cache" };
-    const messages = await $fetch(`${"/_i18n/TM1F8G76"}/${locale}/messages.json`, { headers });
+    const messages = await $fetch(`${"/_i18n/9PYTRecF"}/${locale}/messages.json`, { headers });
     for (const k of Object.keys(messages)) {
       i18n.mergeLocaleMessage(k, messages[k]);
     }
@@ -6568,7 +6584,7 @@ const i18n_EI7LsD1KYQADczz5hrChviGQCdVM8yUkvFEZLJpmnvM = /* @__PURE__ */ defineN
     {
       localeConfigs.value = useRequestEvent().context.nuxtI18n?.localeConfigs || {};
     }
-    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/TM1F8G76"}/${locale}/messages.json`));
+    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/9PYTRecF"}/${locale}/messages.json`));
     const i18n = createI18n(optionsI18n);
     const detectors = useDetectors(useRequestEvent(nuxt), useI18nDetection(nuxt), nuxt);
     const ctx = createNuxtI18nContext(nuxt, i18n, optionsI18n.defaultLocale);
@@ -6810,8 +6826,8 @@ const _sfc_main$1 = {
     const statusText = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-BZKk36En.js"));
-    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-CD8bSLkg.js"));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-BNXK8bOs.js"));
+    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-oFa9F2FI.js"));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ status: unref(status), statusText: unref(statusText), statusCode: unref(status), statusMessage: unref(statusText), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
