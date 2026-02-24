@@ -52,7 +52,9 @@
     { "title": "Coordinación Legal", "description": "Apoyo legal corporativo, redacción y revisión de contratos, y coordinación de derecho laboral a través de firmas asociadas de confianza.", "icon": "⚖️" },
     { "title": "Representación Local y Back Office", "description": "Servicios de domicilio fiscal, nombramiento de representante legal local y manejo de notificaciones oficiales para su empresa en Venezuela.", "icon": "📍" },
     { "title": "Bienes Raíces y Apoyo de Reubicación", "description": "Búsqueda de oficinas y espacios comerciales, aprovisionamiento de almacenes e instalaciones industriales, y vivienda residencial para ejecutivos que se mudan a Venezuela.", "icon": "🏠" },
-    { "title": "Búsqueda de Talento y Apoyo en Contratación", "description": "Búsqueda de talento local, búsqueda ejecutiva y coordinación de contratación para construir su equipo con profesionales venezolanos calificados.", "icon": "👥" }
+    { "title": "Búsqueda de Talento y Apoyo en Contratación", "description": "Búsqueda de talento local, búsqueda ejecutiva y coordinación de contratación para construir su equipo con profesionales venezolanos calificados.", "icon": "👥" },
+    { "title": "Asesoría de Inversión para Proyectos Existentes en Venezuela", "description": "Servicios de asesoría independiente para el despliegue de capital en proyectos venezolanos activos. Asistimos con debida diligencia, análisis regulatorio, estructuración y coordinación local para mitigar riesgos operacionales y de cumplimiento.", "icon": "📊" },
+    { "title": "Soporte Operativo y de Cumplimiento Continuo", "description": "Apoyo post-incorporación que incluye seguimientos regulatorios, renovaciones, coordinación local y asesoría continua para garantizar la continuidad y estabilidad de las operaciones.", "icon": "🔄" }
   ],
 
   "how_label": "El Proceso",

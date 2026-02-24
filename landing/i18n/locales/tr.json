@@ -52,7 +52,9 @@
     { "title": "Hukuki Koordinasyon", "description": "Güvenilir ortak firmalar aracılığıyla kurumsal hukuki destek, sözleşme taslağı hazırlama ve inceleme ve iş hukuku koordinasyonu.", "icon": "⚖️" },
     { "title": "Yerel Temsil ve Arka Ofis", "description": "Vergi adresi hizmetleri, yerel yasal temsilci atanması ve Venezuela'daki şirketiniz için resmi bildirim yönetimi.", "icon": "📍" },
     { "title": "Gayrimenkul ve Taşınma Desteği", "description": "Ofis ve ticari alan arayışı, depo ve endüstriyel tesis tedariki ve Venezuela'ya taşınan yöneticiler için konut.", "icon": "🏠" },
-    { "title": "Yetenek Arayışı ve İşe Alım Desteği", "description": "Nitelikli Venezuelalı profesyonellerle ekibinizi oluşturmak için yerel yetenek tedariki, yönetici arayışı ve işe alım koordinasyonu.", "icon": "👥" }
+    { "title": "Yetenek Arayışı ve İşe Alım Desteği", "description": "Nitelikli Venezuelalı profesyonellerle ekibinizi oluşturmak için yerel yetenek tedariki, yönetici arayışı ve işe alım koordinasyonu.", "icon": "👥" },
+    { "title": "Venezuela'daki Mevcut Projeler için Yatırım Danışmanlığı", "description": "Aktif Venezuelalı projelere sermaye dağıtımı için bağımsız danışmanlık hizmetleri. Operasyonel ve uyumluluk risklerini azaltmak amacıyla durum tespiti, düzenleyici analiz, yapılandırma ve yerel koordinasyonda yardım sağlıyoruz.", "icon": "📊" },
+    { "title": "Süregelen Operasyonel ve Uyumluluk Desteği", "description": "Operasyonların sürekliliğini ve istikrarını sağlamak amacıyla düzenleyici takipler, yenilemeler, yerel koordinasyon ve süregelen danışmanlık dahil kuruluş sonrası destek.", "icon": "🔄" }
   ],
 
   "how_label": "Süreç",

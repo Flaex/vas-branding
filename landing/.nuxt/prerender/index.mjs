@@ -20,4 +20,6 @@ import 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-router/vue-rou
 import 'node:fs';
 import 'node:url';
 import 'file:///Users/fpolania/repos/vas/landing/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/ipx/dist/index.mjs';
+import 'file:///Users/fpolania/repos/vas/landing/node_modules/@nuxt/image/node_modules/pathe/dist/index.mjs';
 //# sourceMappingURL=index.mjs.map

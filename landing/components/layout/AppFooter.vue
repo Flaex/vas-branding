@@ -65,7 +65,7 @@
           <p class="text-white/30 text-xs">
             {{ t('footer_confidential') }}
           </p>
-          <LanguageSelector />
+          <LanguageSelector :drop-up="true" />
         </div>
       </div>
     </div>

@@ -52,7 +52,9 @@
     { "title": "Rechtliche Koordination", "description": "Gesellschaftsrechtliche Unterstützung, Vertragsentwurf und -prüfung sowie Arbeitsrechtskoordination durch vertrauenswürdige Partnerkanzleien.", "icon": "⚖️" },
     { "title": "Lokale Vertretung & Back Office", "description": "Fiskaladressdienste, Ernennung lokaler gesetzlicher Vertreter und offizielle Benachrichtigungsbearbeitung für Ihr Unternehmen in Venezuela.", "icon": "📍" },
     { "title": "Immobilien & Umzugsunterstützung", "description": "Büro- und Geschäftsraumsuche, Beschaffung von Lager- und Industrieanlagen sowie Wohnraum für Führungskräfte, die nach Venezuela umsiedeln.", "icon": "🏠" },
-    { "title": "Talentsuche & Einstellungsunterstützung", "description": "Lokale Talentakquise, Executive Search und Einstellungskoordination, um Ihr Team mit qualifizierten venezolanischen Fachleuten aufzubauen.", "icon": "👥" }
+    { "title": "Talentsuche & Einstellungsunterstützung", "description": "Lokale Talentakquise, Executive Search und Einstellungskoordination, um Ihr Team mit qualifizierten venezolanischen Fachleuten aufzubauen.", "icon": "👥" },
+    { "title": "Investitionsberatung für Bestehende Projekte in Venezuela", "description": "Unabhängige Beratungsdienstleistungen für die Kapitalbereitstellung in aktive venezolanische Projekte. Wir unterstützen bei Due Diligence, regulatorischer Analyse, Strukturierung und lokaler Koordination zur Minderung operationeller und Compliance-Risiken.", "icon": "📊" },
+    { "title": "Laufende Betriebs- und Compliance-Unterstützung", "description": "Post-Inkorporations-Unterstützung einschließlich regulatorischer Nachverfolgungen, Verlängerungen, lokaler Koordination und laufender Beratung zur Gewährleistung der Kontinuität und Stabilität des Betriebs.", "icon": "🔄" }
   ],
 
   "how_label": "Der Prozess",

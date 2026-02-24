@@ -3,6 +3,18 @@
     id="home"
     class="relative min-h-screen bg-primary-900 flex items-center overflow-hidden"
   >
+    <!-- Background image -->
+    <img
+      src="/vas-caracas.webp"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover object-center"
+      aria-hidden="true"
+      fetchpriority="high"
+    />
+
+    <!-- Dark overlay to keep text readable over the image -->
+    <div class="absolute inset-0 bg-primary-900/75" aria-hidden="true"></div>
+
     <!-- Background pattern -->
     <div class="absolute inset-0 opacity-5" aria-hidden="true">
       <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">

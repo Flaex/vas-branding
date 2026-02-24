@@ -709,16 +709,7 @@ const _inlineRuntimeConfig = {
           "language": ""
         }
       ],
-      "detectBrowserLanguage": {
-        "alwaysRedirect": false,
-        "cookieCrossOrigin": false,
-        "cookieDomain": "",
-        "cookieKey": "i18n_redirected",
-        "cookieSecure": false,
-        "fallbackLocale": "",
-        "redirectOn": "root",
-        "useCookie": true
-      },
+      "detectBrowserLanguage": false,
       "experimental": {
         "localeDetector": "",
         "typedPages": true,
@@ -2322,6 +2313,16 @@ var services$6 = [
 		title: "Talent Search & Hiring Support",
 		description: "Local talent sourcing, executive search, and hiring coordination to build your team with qualified Venezuelan professionals.",
 		icon: "👥"
+	},
+	{
+		title: "Investment Advisory for Existing Projects in Venezuela",
+		description: "Independent advisory services for capital deployment into active Venezuelan projects. We assist with due diligence, regulatory analysis, structuring, and local coordination to mitigate operational and compliance risks.",
+		icon: "📊"
+	},
+	{
+		title: "Ongoing Operations & Compliance Support",
+		description: "Post-incorporation support including regulatory follow-ups, renewals, local coordination, and ongoing advisory to ensure continuity and stability of operations.",
+		icon: "🔄"
 	}
 ];
 var how_label$6 = "The Process";
@@ -2554,6 +2555,16 @@ var services$5 = [
 		title: "Búsqueda de Talento y Apoyo en Contratación",
 		description: "Búsqueda de talento local, búsqueda ejecutiva y coordinación de contratación para construir su equipo con profesionales venezolanos calificados.",
 		icon: "👥"
+	},
+	{
+		title: "Asesoría de Inversión para Proyectos Existentes en Venezuela",
+		description: "Servicios de asesoría independiente para el despliegue de capital en proyectos venezolanos activos. Asistimos con debida diligencia, análisis regulatorio, estructuración y coordinación local para mitigar riesgos operacionales y de cumplimiento.",
+		icon: "📊"
+	},
+	{
+		title: "Soporte Operativo y de Cumplimiento Continuo",
+		description: "Apoyo post-incorporación que incluye seguimientos regulatorios, renovaciones, coordinación local y asesoría continua para garantizar la continuidad y estabilidad de las operaciones.",
+		icon: "🔄"
 	}
 ];
 var how_label$5 = "El Proceso";
@@ -2786,6 +2797,16 @@ var services$4 = [
 		title: "Recherche de Talents et Soutien au Recrutement",
 		description: "Sourcing de talents locaux, recherche de cadres et coordination du recrutement pour constituer votre équipe avec des professionnels vénézuéliens qualifiés.",
 		icon: "👥"
+	},
+	{
+		title: "Conseil en Investissement pour Projets Existants au Venezuela",
+		description: "Services de conseil indépendants pour le déploiement de capital dans des projets vénézuéliens actifs. Nous assistons avec la due diligence, l'analyse réglementaire, la structuration et la coordination locale pour atténuer les risques opérationnels et de conformité.",
+		icon: "📊"
+	},
+	{
+		title: "Soutien Opérationnel et de Conformité Continu",
+		description: "Soutien post-incorporation incluant les suivis réglementaires, les renouvellements, la coordination locale et le conseil continu pour assurer la continuité et la stabilité des opérations.",
+		icon: "🔄"
 	}
 ];
 var how_label$4 = "Le Processus";
@@ -3018,6 +3039,16 @@ var services$3 = [
 		title: "Talentsuche & Einstellungsunterstützung",
 		description: "Lokale Talentakquise, Executive Search und Einstellungskoordination, um Ihr Team mit qualifizierten venezolanischen Fachleuten aufzubauen.",
 		icon: "👥"
+	},
+	{
+		title: "Investitionsberatung für Bestehende Projekte in Venezuela",
+		description: "Unabhängige Beratungsdienstleistungen für die Kapitalbereitstellung in aktive venezolanische Projekte. Wir unterstützen bei Due Diligence, regulatorischer Analyse, Strukturierung und lokaler Koordination zur Minderung operationeller und Compliance-Risiken.",
+		icon: "📊"
+	},
+	{
+		title: "Laufende Betriebs- und Compliance-Unterstützung",
+		description: "Post-Inkorporations-Unterstützung einschließlich regulatorischer Nachverfolgungen, Verlängerungen, lokaler Koordination und laufender Beratung zur Gewährleistung der Kontinuität und Stabilität des Betriebs.",
+		icon: "🔄"
 	}
 ];
 var how_label$3 = "Der Prozess";
@@ -3250,6 +3281,16 @@ var services$2 = [
 		title: "חיפוש כישרונות ותמיכה בגיוס",
 		description: "איתור כישרונות מקומיים, חיפוש מנהלים ותיאום גיוס לבניית הצוות שלך עם מקצוענים ונצואלים מוסמכים.",
 		icon: "👥"
+	},
+	{
+		title: "ייעוץ השקעות לפרויקטים קיימים בוונצואלה",
+		description: "שירותי ייעוץ עצמאיים לפריסת הון בפרויקטים ונצואלים פעילים. אנו מסייעים בבדיקת נאותות, ניתוח רגולטורי, מבנה ותיאום מקומי לצמצום סיכונים תפעוליים וסיכוני ציות.",
+		icon: "📊"
+	},
+	{
+		title: "תמיכה תפעולית ועמידה בתקנות שוטפת",
+		description: "תמיכה לאחר התאגדות הכוללת מעקבים רגולטוריים, חידושים, תיאום מקומי וייעוץ שוטף להבטחת רציפות ויציבות הפעילות.",
+		icon: "🔄"
 	}
 ];
 var how_label$2 = "התהליך";
@@ -3482,6 +3523,16 @@ var services$1 = [
 		title: "人才搜索與招聘支援",
 		description: "本地人才招募、高管搜尋和招聘協調，以具備資格的委內瑞拉專業人才組建您的團隊。",
 		icon: "👥"
+	},
+	{
+		title: "現有委內瑞拉項目的投資諮詢",
+		description: "為在委內瑞拉活躍項目中部署資本提供獨立諮詢服務。我們協助進行盡職調查、監管分析、結構設計和本地協調，以降低運營和合規風險。",
+		icon: "📊"
+	},
+	{
+		title: "持續運營與合規支援",
+		description: "提供設立後支援，包括監管跟進、更新、本地協調和持續諮詢，以確保運營的連續性和穩定性。",
+		icon: "🔄"
 	}
 ];
 var how_label$1 = "流程說明";
@@ -3714,6 +3765,16 @@ var services = [
 		title: "Yetenek Arayışı ve İşe Alım Desteği",
 		description: "Nitelikli Venezuelalı profesyonellerle ekibinizi oluşturmak için yerel yetenek tedariki, yönetici arayışı ve işe alım koordinasyonu.",
 		icon: "👥"
+	},
+	{
+		title: "Venezuela'daki Mevcut Projeler için Yatırım Danışmanlığı",
+		description: "Aktif Venezuelalı projelere sermaye dağıtımı için bağımsız danışmanlık hizmetleri. Operasyonel ve uyumluluk risklerini azaltmak amacıyla durum tespiti, düzenleyici analiz, yapılandırma ve yerel koordinasyonda yardım sağlıyoruz.",
+		icon: "📊"
+	},
+	{
+		title: "Süregelen Operasyonel ve Uyumluluk Desteği",
+		description: "Operasyonların sürekliliğini ve istikrarını sağlamak amacıyla düzenleyici takipler, yenilemeler, yerel koordinasyon ve süregelen danışmanlık dahil kuruluş sonrası destek.",
+		icon: "🔄"
 	}
 ];
 var how_label = "Süreç";
@@ -4428,7 +4489,7 @@ const _c_PqpbvaEYXIMS0Aa_lsHbxqRFGBARq3xeIPg1FNs = defineNitroPlugin(async (nitr
     const localeSegment = detector.route(event.path);
     const pathLocale = isSupportedLocale(localeSegment) && localeSegment || void 0;
     const path = (pathLocale && url.pathname.slice(pathLocale.length + 1)) ?? url.pathname;
-    if (!url.pathname.includes("/_i18n/oJaRLiuN") && !isExistingNuxtRoute(path)) {
+    if (!url.pathname.includes("/_i18n/xclzPP8F") && !isExistingNuxtRoute(path)) {
       return;
     }
     const resolved = resolveRedirectPath(event, path, pathLocale, ctx.vueI18nOptions.defaultLocale, detector);
@@ -4539,7 +4600,22 @@ const plugins = [
 _JOQi6EE4o9rmfQNwoH1vj6NiNa_f69m5DNXyWK8zoZk
 ];
 
-const assets = {};
+const assets = {
+  "/index.mjs": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"359cc-+bmixqgi+KxdlOcoiYHG/pVrdLQ\"",
+    "mtime": "2026-02-24T18:56:08.484Z",
+    "size": 219596,
+    "path": "index.mjs"
+  },
+  "/index.mjs.map": {
+    "type": "application/json",
+    "etag": "\"8345b-+iSN/0veuwv+3CYdHj8W4sCNmj4\"",
+    "mtime": "2026-02-24T18:56:08.484Z",
+    "size": 537691,
+    "path": "index.mjs.map"
+  }
+};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));

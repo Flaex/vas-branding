@@ -29,6 +29,7 @@
 
         <!-- CTA Button -->
         <div class="flex items-center gap-4">
+          <LanguageSelector class="hidden md:flex" />
           <BaseButton href="#contact" variant="primary" size="sm" class="hidden sm:inline-flex">
             {{ t('cta_request_consultation') }}
           </BaseButton>
@@ -64,6 +65,9 @@
           <BaseButton href="#contact" variant="primary" size="sm" class="mt-3 w-full" @click="mobileOpen = false">
             {{ t('cta_request_consultation') }}
           </BaseButton>
+          <div class="mt-3">
+            <LanguageSelector />
+          </div>
         </nav>
       </div>
     </div>

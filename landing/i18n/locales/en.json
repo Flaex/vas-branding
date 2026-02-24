@@ -52,7 +52,9 @@
     { "title": "Legal Coordination", "description": "Corporate legal support, contract drafting and review, and labor law coordination through trusted partner firms.", "icon": "⚖️" },
     { "title": "Local Representation & Back Office", "description": "Fiscal address services, local legal representative appointment, and official notification handling for your company in Venezuela.", "icon": "📍" },
     { "title": "Real Estate & Relocation Support", "description": "Office and commercial space search, warehouse and industrial facilities sourcing, and residential housing for executives relocating to Venezuela.", "icon": "🏠" },
-    { "title": "Talent Search & Hiring Support", "description": "Local talent sourcing, executive search, and hiring coordination to build your team with qualified Venezuelan professionals.", "icon": "👥" }
+    { "title": "Talent Search & Hiring Support", "description": "Local talent sourcing, executive search, and hiring coordination to build your team with qualified Venezuelan professionals.", "icon": "👥" },
+    { "title": "Investment Advisory for Existing Projects in Venezuela", "description": "Independent advisory services for capital deployment into active Venezuelan projects. We assist with due diligence, regulatory analysis, structuring, and local coordination to mitigate operational and compliance risks.", "icon": "📊" },
+    { "title": "Ongoing Operations & Compliance Support", "description": "Post-incorporation support including regulatory follow-ups, renewals, local coordination, and ongoing advisory to ensure continuity and stability of operations.", "icon": "🔄" }
   ],
 
   "how_label": "The Process",

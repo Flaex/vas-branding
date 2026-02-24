@@ -26,7 +26,10 @@
     <Transition name="dropdown">
       <div
         v-if="isOpen"
-        class="absolute bottom-full mb-2 right-0 bg-primary-700 border border-white/20 rounded-card shadow-xl py-1 min-w-[160px] z-50"
+        :class="[
+          'absolute right-0 bg-primary-700 border border-white/20 rounded-card shadow-xl py-1 min-w-[160px] z-50',
+          dropUp ? 'bottom-full mb-2' : 'top-full mt-2',
+        ]"
         role="listbox"
       >
         <button
@@ -46,7 +49,14 @@
 </template>
 
 <script setup lang="ts">
+const props = defineProps<{ dropUp?: boolean }>()
+
 const { locale, locales, setLocale } = useI18n()
+const cookie = useCookie('i18n_redirected', {
+  maxAge: 60 * 60 * 24 * 365,
+  sameSite: 'lax',
+  path: '/',
+})
 
 const isOpen = ref(false)
 const selectorRef = ref<HTMLElement | null>(null)
@@ -57,6 +67,7 @@ const currentLocaleName = computed(() => {
 })
 
 async function selectLocale(code: string) {
+  cookie.value = code
   await setLocale(code)
   isOpen.value = false
 }

@@ -1,5 +1,13 @@
 <template>
-  <section id="about" class="section-padding bg-neutral-50">
+  <section id="about" class="relative section-padding bg-neutral-50 overflow-hidden">
+    <!-- Background image: right 25%, centered vertically -->
+    <img
+      src="/vas-study-patterns.webp"
+      alt=""
+      class="absolute top-1/2 lg:-translate-y-1/2 right-0 w-1/4 h-full object-cover object-center"
+      aria-hidden="true"
+    />
+
     <div class="container-max">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -36,9 +44,6 @@
         <!-- Visual accent block -->
         <div class="relative pb-8">
           <div class="bg-primary-900 rounded-card p-10 pb-24 text-white relative overflow-hidden">
-            <!-- Decorative accent -->
-            <div class="absolute top-0 right-0 w-32 h-32 bg-accent-500/20 rounded-bl-full" aria-hidden="true"></div>
-
             <blockquote class="relative z-10">
               <div class="text-accent-400 text-5xl font-display font-bold leading-none mb-4">"</div>
               <p class="text-white/90 text-2xl font-display font-semibold mb-8">
