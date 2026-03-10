@@ -51,7 +51,7 @@
       </div>
 
       <!-- Mobile menu -->
-      <div v-show="mobileOpen" class="md:hidden pb-4 border-t border-white/10 mt-2">
+      <div v-show="mobileOpen" class="md:hidden pb-4 px-4 border-t border-white/10 mt-2 bg-primary-900">
         <nav class="flex flex-col gap-1 pt-4" aria-label="Mobile navigation">
           <a
             v-for="link in navLinks"

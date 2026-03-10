@@ -4,7 +4,7 @@
     <img
       src="/vas-study-patterns.webp"
       alt=""
-      class="absolute top-1/2 lg:-translate-y-1/2 right-0 w-1/4 h-full object-cover object-center"
+      class="hidden lg:block absolute top-1/2 lg:-translate-y-1/2 right-0 w-1/4 h-full object-cover object-center"
       aria-hidden="true"
     />
 
