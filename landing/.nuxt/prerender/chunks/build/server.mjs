@@ -1,10 +1,10 @@
 import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import * as Vue from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/index.mjs';
-import { hasInjectionContext, getCurrentInstance as getCurrentInstance$1, inject, computed, shallowRef, defineComponent, createElementBlock, provide, cloneVNode, h, ref, Suspense, Fragment, createApp, createVNode, Text, shallowReactive, onErrorCaptured, onServerPrefetch, unref, resolveDynamicComponent, reactive, effectScope, defineAsyncComponent, mergeProps, getCurrentScope, toRef, isReadonly, useSSRContext, isRef, isShallow, isReactive, toRaw } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/index.mjs';
+import { ref, hasInjectionContext, getCurrentInstance as getCurrentInstance$1, inject, computed, shallowRef, defineComponent, createElementBlock, provide, cloneVNode, h, Suspense, Fragment, createApp, createVNode, Text, shallowReactive, onErrorCaptured, onServerPrefetch, unref, resolveDynamicComponent, reactive, effectScope, defineAsyncComponent, mergeProps, getCurrentScope, toRef, isReadonly, useSSRContext, isRef, isShallow, isReactive, toRaw } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue/index.mjs';
 import { $fetch as $fetch$1 } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ofetch/dist/node.mjs';
 import { l as baseURL } from '../nitro/nitro.mjs';
 import { createHooks } from 'file:///Users/fpolania/repos/vas/landing/node_modules/hookable/dist/index.mjs';
 import { getContext, executeAsync } from 'file:///Users/fpolania/repos/vas/landing/node_modules/unctx/dist/index.mjs';
-import { sanitizeStatusCode, createError as createError$1, getRequestURL, appendHeader, getRequestHeader, getCookie, setCookie, deleteCookie } from 'file:///Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs';
+import { getRequestHeader, sanitizeStatusCode, setCookie, getCookie, deleteCookie, createError as createError$1, getRequestURL, appendHeader } from 'file:///Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs';
 import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-router/vue-router.node.mjs';
 import { createDefu, defu } from 'file:///Users/fpolania/repos/vas/landing/node_modules/defu/dist/defu.mjs';
 import { parseURL, encodePath, decodePath, hasProtocol, isScriptProtocol, joinURL, withQuery, parsePath, parseQuery, withoutTrailingSlash } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ufo/dist/index.mjs';
@@ -27,8 +27,6 @@ import 'file:///Users/fpolania/repos/vas/landing/node_modules/radix3/dist/index.
 import 'node:fs';
 import 'node:url';
 import 'file:///Users/fpolania/repos/vas/landing/node_modules/pathe/dist/index.mjs';
-import 'file:///Users/fpolania/repos/vas/landing/node_modules/ipx/dist/index.mjs';
-import 'file:///Users/fpolania/repos/vas/landing/node_modules/@nuxt/image/node_modules/pathe/dist/index.mjs';
 import 'file:///Users/fpolania/repos/vas/landing/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import 'file:///Users/fpolania/repos/vas/landing/node_modules/unhead/dist/server.mjs';
 import 'file:///Users/fpolania/repos/vas/landing/node_modules/devalue/index.js';
@@ -430,7 +428,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CrPiGgq_.mjs')
+    component: () => import('./index-CQTPVif5.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -1248,7 +1246,7 @@ const localeLoaders = {
     {
       key: "locale_en_46json_f7ad1dff",
       load: () => import(
-        './en-GMxP7hyt.mjs'
+        './en-BRbDiti0.mjs'
         /* webpackChunkName: "locale_en_46json_f7ad1dff" */
       ),
       cache: true
@@ -1258,7 +1256,7 @@ const localeLoaders = {
     {
       key: "locale_es_46json_755fd8a8",
       load: () => import(
-        './es-BEb8mBf2.mjs'
+        './es-pkJhg3hg.mjs'
         /* webpackChunkName: "locale_es_46json_755fd8a8" */
       ),
       cache: true
@@ -1268,7 +1266,7 @@ const localeLoaders = {
     {
       key: "locale_fr_46json_b42475c1",
       load: () => import(
-        './fr-Cjp-Yo5b.mjs'
+        './fr-DsSw4jnH.mjs'
         /* webpackChunkName: "locale_fr_46json_b42475c1" */
       ),
       cache: true
@@ -1278,7 +1276,7 @@ const localeLoaders = {
     {
       key: "locale_de_46json_56947012",
       load: () => import(
-        './de-B_pWZDCO.mjs'
+        './de-CE_dYFJ3.mjs'
         /* webpackChunkName: "locale_de_46json_56947012" */
       ),
       cache: true
@@ -1288,7 +1286,7 @@ const localeLoaders = {
     {
       key: "locale_he_46json_669c5187",
       load: () => import(
-        './he-BYOV2tCX.mjs'
+        './he-D-SyF_Wt.mjs'
         /* webpackChunkName: "locale_he_46json_669c5187" */
       ),
       cache: true
@@ -1298,7 +1296,7 @@ const localeLoaders = {
     {
       key: "locale_zh_45TW_46json_9d6a2e18",
       load: () => import(
-        './zh-TW-7pCrAUEI.mjs'
+        './zh-TW-C6PcnG6p.mjs'
         /* webpackChunkName: "locale_zh_45TW_46json_9d6a2e18" */
       ),
       cache: true
@@ -1308,7 +1306,7 @@ const localeLoaders = {
     {
       key: "locale_tr_46json_99232a3d",
       load: () => import(
-        './tr-BjYZJIV4.mjs'
+        './tr-DqqoTD0e.mjs'
         /* webpackChunkName: "locale_tr_46json_99232a3d" */
       ),
       cache: true
@@ -1649,7 +1647,7 @@ function createNuxtI18nContext(nuxt, vueI18n, defaultLocale) {
       return;
     }
     const headers = getLocaleConfig(locale)?.cacheable ? {} : { "Cache-Control": "no-cache" };
-    const messages = await $fetch(`${"/_i18n/GWTmhKDP"}/${locale}/messages.json`, { headers });
+    const messages = await $fetch(`${"/_i18n/WYrDsN6u"}/${locale}/messages.json`, { headers });
     for (const k of Object.keys(messages)) {
       i18n.mergeLocaleMessage(k, messages[k]);
     }
@@ -6586,7 +6584,7 @@ const i18n_EI7LsD1KYQADczz5hrChviGQCdVM8yUkvFEZLJpmnvM = /* @__PURE__ */ defineN
     {
       localeConfigs.value = useRequestEvent().context.nuxtI18n?.localeConfigs || {};
     }
-    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/GWTmhKDP"}/${locale}/messages.json`));
+    prerenderRoutes(localeCodes.map((locale) => `${"/_i18n/WYrDsN6u"}/${locale}/messages.json`));
     const i18n = createI18n(optionsI18n);
     const detectors = useDetectors(useRequestEvent(nuxt), useI18nDetection(nuxt), nuxt);
     const ctx = createNuxtI18nContext(nuxt, i18n, optionsI18n.defaultLocale);
@@ -6907,5 +6905,5 @@ let entry;
 }
 const entry_default = ((ssrContext) => entry(ssrContext));
 
-export { _export_sfc as _, useNuxtApp as a, useRuntimeConfig as b, nuxtLinkDefaults as c, useHead as d, entry_default as default, encodeRoutePath as e, useI18n as f, useSeoMeta as g, navigateTo as n, resolveRouteObject as r, useRouter as u };
+export { _export_sfc as _, useNuxtApp as a, useRuntimeConfig as b, nuxtLinkDefaults as c, useHead as d, entry_default as default, encodeRoutePath as e, useI18n as f, useCookie as g, useSeoMeta as h, navigateTo as n, resolveRouteObject as r, useRouter as u };
 //# sourceMappingURL=server.mjs.map

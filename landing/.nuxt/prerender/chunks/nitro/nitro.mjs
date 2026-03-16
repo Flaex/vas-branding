@@ -1,4 +1,4 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, getCookie, setCookie, sanitizeStatusCode, removeResponseHeader, createError, getRouterParam, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file:///Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, getCookie, setCookie, sanitizeStatusCode, removeResponseHeader, createError, getRouterParam, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///Users/fpolania/repos/vas/landing/node_modules/h3/dist/index.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, joinRelativeURL, parsePath, withLeadingSlash, decodePath, withoutTrailingSlash } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ufo/dist/index.mjs';
 import destr from 'file:///Users/fpolania/repos/vas/landing/node_modules/destr/dist/index.mjs';
 import { createHooks } from 'file:///Users/fpolania/repos/vas/landing/node_modules/hookable/dist/index.mjs';
@@ -19,8 +19,6 @@ import { createRouterMatcher } from 'file:///Users/fpolania/repos/vas/landing/no
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'file:///Users/fpolania/repos/vas/landing/node_modules/pathe/dist/index.mjs';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/fpolania/repos/vas/landing/node_modules/ipx/dist/index.mjs';
-import { isAbsolute } from 'file:///Users/fpolania/repos/vas/landing/node_modules/@nuxt/image/node_modules/pathe/dist/index.mjs';
 
 const serverAssets = [{"baseName":"server","dir":"/Users/fpolania/repos/vas/landing/server/assets"}];
 
@@ -651,7 +649,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "c28480a4-dd53-43b5-8066-8d2e8279ca73",
+    "buildId": "1db7544f-3489-42c4-9d32-b8e5fdfc26a8",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -765,18 +763,6 @@ const _inlineRuntimeConfig = {
           "domain": ""
         }
       }
-    }
-  },
-  "ipx": {
-    "baseURL": "/_ipx",
-    "alias": {},
-    "fs": {
-      "dir": [
-        "/Users/fpolania/repos/vas/landing/public"
-      ]
-    },
-    "http": {
-      "domains": []
     }
   }
 };
@@ -1274,6 +1260,16 @@ var services$6 = [
 		title: "Talent Search & Hiring Support",
 		description: "Local talent sourcing, executive search, and hiring coordination to build your team with qualified Venezuelan professionals.",
 		icon: "👥"
+	},
+	{
+		title: "Investment Advisory for Existing Projects in Venezuela",
+		description: "Independent advisory services for capital deployment into active Venezuelan projects. We assist with due diligence, regulatory analysis, structuring, and local coordination to mitigate operational and compliance risks.",
+		icon: "📊"
+	},
+	{
+		title: "Ongoing Operations & Compliance Support",
+		description: "Post-incorporation support including regulatory follow-ups, renewals, local coordination, and ongoing advisory to ensure continuity and stability of operations.",
+		icon: "🔄"
 	}
 ];
 var how_label$6 = "The Process";
@@ -1332,7 +1328,7 @@ var seo_title$6 = "Venezuela Advisory Services — Market Entry & Business Advis
 var seo_description$6 = "Helping companies enter and operate in Venezuela. Market entry, regulatory support, permits & licenses, local representation, real estate, and talent sourcing.";
 var seo_og_title$6 = "Venezuela Advisory Services";
 var seo_og_description$6 = "Your trusted partner for doing business in Venezuela.";
-var contact_email$6 = "info{'@'}venezuela-advisory.com";
+var contact_email$6 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$6 = "+58 212 5644313 / 5643321";
 var company_name$6 = "Venezuela Advisory";
 var footer_tagline$6 = "Your Trusted Partner for Business Operations in Venezuela";
@@ -1506,6 +1502,16 @@ var services$5 = [
 		title: "Búsqueda de Talento y Apoyo en Contratación",
 		description: "Búsqueda de talento local, búsqueda ejecutiva y coordinación de contratación para construir su equipo con profesionales venezolanos calificados.",
 		icon: "👥"
+	},
+	{
+		title: "Asesoría de Inversión para Proyectos Existentes en Venezuela",
+		description: "Servicios de asesoría independiente para el despliegue de capital en proyectos venezolanos activos. Asistimos con debida diligencia, análisis regulatorio, estructuración y coordinación local para mitigar riesgos operacionales y de cumplimiento.",
+		icon: "📊"
+	},
+	{
+		title: "Soporte Operativo y de Cumplimiento Continuo",
+		description: "Apoyo post-incorporación que incluye seguimientos regulatorios, renovaciones, coordinación local y asesoría continua para garantizar la continuidad y estabilidad de las operaciones.",
+		icon: "🔄"
 	}
 ];
 var how_label$5 = "El Proceso";
@@ -1564,7 +1570,7 @@ var seo_title$5 = "Venezuela Advisory Services — Entrada al Mercado y Asesorí
 var seo_description$5 = "Ayudamos a empresas a ingresar y operar en Venezuela. Entrada al mercado, apoyo regulatorio, permisos y licencias, representación local, bienes raíces y captación de talento.";
 var seo_og_title$5 = "Venezuela Advisory Services";
 var seo_og_description$5 = "Su socio de confianza para hacer negocios en Venezuela.";
-var contact_email$5 = "info{'@'}venezuela-advisory.com";
+var contact_email$5 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$5 = "+58 212 5644313 / 5643321";
 var company_name$5 = "Venezuela Advisory";
 var footer_tagline$5 = "Su Socio de Confianza para Operaciones Empresariales en Venezuela";
@@ -1738,6 +1744,16 @@ var services$4 = [
 		title: "Recherche de Talents et Soutien au Recrutement",
 		description: "Sourcing de talents locaux, recherche de cadres et coordination du recrutement pour constituer votre équipe avec des professionnels vénézuéliens qualifiés.",
 		icon: "👥"
+	},
+	{
+		title: "Conseil en Investissement pour Projets Existants au Venezuela",
+		description: "Services de conseil indépendants pour le déploiement de capital dans des projets vénézuéliens actifs. Nous assistons avec la due diligence, l'analyse réglementaire, la structuration et la coordination locale pour atténuer les risques opérationnels et de conformité.",
+		icon: "📊"
+	},
+	{
+		title: "Soutien Opérationnel et de Conformité Continu",
+		description: "Soutien post-incorporation incluant les suivis réglementaires, les renouvellements, la coordination locale et le conseil continu pour assurer la continuité et la stabilité des opérations.",
+		icon: "🔄"
 	}
 ];
 var how_label$4 = "Le Processus";
@@ -1796,7 +1812,7 @@ var seo_title$4 = "Venezuela Advisory Services — Entrée sur le Marché et Con
 var seo_description$4 = "Nous aidons les entreprises à entrer et à opérer au Venezuela. Entrée sur le marché, soutien réglementaire, permis et licences, représentation locale, immobilier et recrutement.";
 var seo_og_title$4 = "Venezuela Advisory Services";
 var seo_og_description$4 = "Votre partenaire de confiance pour faire des affaires au Venezuela.";
-var contact_email$4 = "info{'@'}venezuela-advisory.com";
+var contact_email$4 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$4 = "+58 212 5644313 / 5643321";
 var company_name$4 = "Venezuela Advisory";
 var footer_tagline$4 = "Votre Partenaire de Confiance pour les Opérations Commerciales au Venezuela";
@@ -1970,6 +1986,16 @@ var services$3 = [
 		title: "Talentsuche & Einstellungsunterstützung",
 		description: "Lokale Talentakquise, Executive Search und Einstellungskoordination, um Ihr Team mit qualifizierten venezolanischen Fachleuten aufzubauen.",
 		icon: "👥"
+	},
+	{
+		title: "Investitionsberatung für Bestehende Projekte in Venezuela",
+		description: "Unabhängige Beratungsdienstleistungen für die Kapitalbereitstellung in aktive venezolanische Projekte. Wir unterstützen bei Due Diligence, regulatorischer Analyse, Strukturierung und lokaler Koordination zur Minderung operationeller und Compliance-Risiken.",
+		icon: "📊"
+	},
+	{
+		title: "Laufende Betriebs- und Compliance-Unterstützung",
+		description: "Post-Inkorporations-Unterstützung einschließlich regulatorischer Nachverfolgungen, Verlängerungen, lokaler Koordination und laufender Beratung zur Gewährleistung der Kontinuität und Stabilität des Betriebs.",
+		icon: "🔄"
 	}
 ];
 var how_label$3 = "Der Prozess";
@@ -2028,7 +2054,7 @@ var seo_title$3 = "Venezuela Advisory Services — Markteintritt & Unternehmensb
 var seo_description$3 = "Wir helfen Unternehmen, in Venezuela einzutreten und zu operieren. Markteintritt, regulatorische Unterstützung, Genehmigungen & Lizenzen, lokale Vertretung, Immobilien und Talentakquise.";
 var seo_og_title$3 = "Venezuela Advisory Services";
 var seo_og_description$3 = "Ihr vertrauenswürdiger Partner für Geschäfte in Venezuela.";
-var contact_email$3 = "info{'@'}venezuela-advisory.com";
+var contact_email$3 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$3 = "+58 212 5644313 / 5643321";
 var company_name$3 = "Venezuela Advisory";
 var footer_tagline$3 = "Ihr Vertrauenspartner für Geschäftsbetrieb in Venezuela";
@@ -2202,6 +2228,16 @@ var services$2 = [
 		title: "חיפוש כישרונות ותמיכה בגיוס",
 		description: "איתור כישרונות מקומיים, חיפוש מנהלים ותיאום גיוס לבניית הצוות שלך עם מקצוענים ונצואלים מוסמכים.",
 		icon: "👥"
+	},
+	{
+		title: "ייעוץ השקעות לפרויקטים קיימים בוונצואלה",
+		description: "שירותי ייעוץ עצמאיים לפריסת הון בפרויקטים ונצואלים פעילים. אנו מסייעים בבדיקת נאותות, ניתוח רגולטורי, מבנה ותיאום מקומי לצמצום סיכונים תפעוליים וסיכוני ציות.",
+		icon: "📊"
+	},
+	{
+		title: "תמיכה תפעולית ועמידה בתקנות שוטפת",
+		description: "תמיכה לאחר התאגדות הכוללת מעקבים רגולטוריים, חידושים, תיאום מקומי וייעוץ שוטף להבטחת רציפות ויציבות הפעילות.",
+		icon: "🔄"
 	}
 ];
 var how_label$2 = "התהליך";
@@ -2260,7 +2296,7 @@ var seo_title$2 = "Venezuela Advisory Services — כניסה לשוק וייע�
 var seo_description$2 = "עוזרים לחברות להיכנס לוונצואלה ולפעול בה. כניסה לשוק, תמיכה רגולטורית, היתרים ורישיונות, ייצוג מקומי, נדל\"ן וגיוס כישרונות.";
 var seo_og_title$2 = "Venezuela Advisory Services";
 var seo_og_description$2 = "השותף המהימן שלך לעשיית עסקים בוונצואלה.";
-var contact_email$2 = "info{'@'}venezuela-advisory.com";
+var contact_email$2 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$2 = "+58 212 5644313 / 5643321";
 var company_name$2 = "Venezuela Advisory";
 var footer_tagline$2 = "השותף המהימן שלך לפעילות עסקית בוונצואלה";
@@ -2434,6 +2470,16 @@ var services$1 = [
 		title: "人才搜索與招聘支援",
 		description: "本地人才招募、高管搜尋和招聘協調，以具備資格的委內瑞拉專業人才組建您的團隊。",
 		icon: "👥"
+	},
+	{
+		title: "現有委內瑞拉項目的投資諮詢",
+		description: "為在委內瑞拉活躍項目中部署資本提供獨立諮詢服務。我們協助進行盡職調查、監管分析、結構設計和本地協調，以降低運營和合規風險。",
+		icon: "📊"
+	},
+	{
+		title: "持續運營與合規支援",
+		description: "提供設立後支援，包括監管跟進、更新、本地協調和持續諮詢，以確保運營的連續性和穩定性。",
+		icon: "🔄"
 	}
 ];
 var how_label$1 = "流程說明";
@@ -2492,7 +2538,7 @@ var seo_title$1 = "Venezuela Advisory Services — 市場進入與商業諮詢";
 var seo_description$1 = "協助企業進入並在委內瑞拉運營。市場進入、監管支援、許可證與執照、本地代理、房地產和人才招募。";
 var seo_og_title$1 = "Venezuela Advisory Services";
 var seo_og_description$1 = "您在委內瑞拉做生意的可信合作夥伴。";
-var contact_email$1 = "info{'@'}venezuela-advisory.com";
+var contact_email$1 = "venezuelaadvisory{'@'}proton.me";
 var contact_phone$1 = "+58 212 5644313 / 5643321";
 var company_name$1 = "Venezuela Advisory";
 var footer_tagline$1 = "您在委內瑞拉業務運營的可信合作夥伴";
@@ -2666,6 +2712,16 @@ var services = [
 		title: "Yetenek Arayışı ve İşe Alım Desteği",
 		description: "Nitelikli Venezuelalı profesyonellerle ekibinizi oluşturmak için yerel yetenek tedariki, yönetici arayışı ve işe alım koordinasyonu.",
 		icon: "👥"
+	},
+	{
+		title: "Venezuela'daki Mevcut Projeler için Yatırım Danışmanlığı",
+		description: "Aktif Venezuelalı projelere sermaye dağıtımı için bağımsız danışmanlık hizmetleri. Operasyonel ve uyumluluk risklerini azaltmak amacıyla durum tespiti, düzenleyici analiz, yapılandırma ve yerel koordinasyonda yardım sağlıyoruz.",
+		icon: "📊"
+	},
+	{
+		title: "Süregelen Operasyonel ve Uyumluluk Desteği",
+		description: "Operasyonların sürekliliğini ve istikrarını sağlamak amacıyla düzenleyici takipler, yenilemeler, yerel koordinasyon ve süregelen danışmanlık dahil kuruluş sonrası destek.",
+		icon: "🔄"
 	}
 ];
 var how_label = "Süreç";
@@ -2724,7 +2780,7 @@ var seo_title = "Venezuela Danışmanlık Hizmetleri — Piyasaya Giriş ve İş
 var seo_description = "Şirketlerin Venezuela'ya girmesine ve orada faaliyet göstermesine yardımcı oluyoruz. Piyasaya giriş, düzenleyici destek, izinler ve lisanslar, yerel temsil, gayrimenkul ve yetenek tedariki.";
 var seo_og_title = "Venezuela Danışmanlık Hizmetleri";
 var seo_og_description = "Venezuela'da iş yapmak için güvenilir ortağınız.";
-var contact_email = "info{'@'}venezuela-advisory.com";
+var contact_email = "venezuelaadvisory{'@'}proton.me";
 var contact_phone = "+58 212 5644313 / 5643321";
 var company_name = "Venezuela Advisory";
 var footer_tagline = "Venezuela'da İş Operasyonları için Güvenilir Ortağınız";
@@ -3346,7 +3402,7 @@ const _c_PqpbvaEYXIMS0Aa_lsHbxqRFGBARq3xeIPg1FNs = defineNitroPlugin(async (nitr
     const localeSegment = detector.route(event.path);
     const pathLocale = isSupportedLocale(localeSegment) && localeSegment || void 0;
     const path = (pathLocale && url.pathname.slice(pathLocale.length + 1)) ?? url.pathname;
-    if (!url.pathname.includes("/_i18n/GWTmhKDP") && !isExistingNuxtRoute(path)) {
+    if (!url.pathname.includes("/_i18n/WYrDsN6u") && !isExistingNuxtRoute(path)) {
       return;
     }
     const resolved = resolveRedirectPath(event, path, pathLocale, ctx.vueI18nOptions.defaultLocale, detector);
@@ -3370,7 +3426,610 @@ const plugins = [
   _c_PqpbvaEYXIMS0Aa_lsHbxqRFGBARq3xeIPg1FNs
 ];
 
-const assets = {};
+const assets = {
+  "/200.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"f3a7-tOImUOoiFyuspG61ZM6NAOzb2v4\"",
+    "mtime": "2026-03-10T13:33:10.455Z",
+    "size": 62375,
+    "path": "../../.output/public/200.html"
+  },
+  "/404.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"f3a7-tOImUOoiFyuspG61ZM6NAOzb2v4\"",
+    "mtime": "2026-03-10T13:33:10.455Z",
+    "size": 62375,
+    "path": "../../.output/public/404.html"
+  },
+  "/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"17309-SAG1vEChZqhQuZ/vl8GSg4HM4PM\"",
+    "mtime": "2026-03-10T13:33:10.457Z",
+    "size": 94985,
+    "path": "../../.output/public/index.html"
+  },
+  "/_payload.json": {
+    "type": "application/json",
+    "etag": "\"45-4iBfW5u1vCXJz2MvIbQR3XEc9Rk\"",
+    "mtime": "2026-03-10T13:33:10.465Z",
+    "size": 69,
+    "path": "../../.output/public/_payload.json"
+  },
+  "/logo-primary.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2844-ks3uKL3+L5v3Rc0y+LC89vPQAPk\"",
+    "mtime": "2026-03-10T13:33:10.501Z",
+    "size": 10308,
+    "path": "../../.output/public/logo-primary.svg"
+  },
+  "/logo-white.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"2878-RTVSuo8KCJw0Y4NVOKo/01SimwY\"",
+    "mtime": "2026-03-10T13:33:10.502Z",
+    "size": 10360,
+    "path": "../../.output/public/logo-white.svg"
+  },
+  "/robots.txt": {
+    "type": "text/plain; charset=utf-8",
+    "etag": "\"4f-XVT1LqTc3J8L4gGHyo6dMHSJcoI\"",
+    "mtime": "2026-03-10T13:33:10.502Z",
+    "size": 79,
+    "path": "../../.output/public/robots.txt"
+  },
+  "/logo-icon.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"32a-yZUGt3CILMhG3Ibh65Omd2hs76c\"",
+    "mtime": "2026-03-10T13:33:10.501Z",
+    "size": 810,
+    "path": "../../.output/public/logo-icon.svg"
+  },
+  "/vas-caracas.webp": {
+    "type": "image/webp",
+    "etag": "\"2a19c-slhjSQWO36qa/IAaJl70s6++o8s\"",
+    "mtime": "2026-03-10T13:33:10.502Z",
+    "size": 172444,
+    "path": "../../.output/public/vas-caracas.webp"
+  },
+  "/vas-study-patterns.webp": {
+    "type": "image/webp",
+    "etag": "\"c450-PpBXuDDOdkwOFZH1BdKkv15XJ7Q\"",
+    "mtime": "2026-03-10T13:33:10.502Z",
+    "size": 50256,
+    "path": "../../.output/public/vas-study-patterns.webp"
+  },
+  "/vas-operations.webp": {
+    "type": "image/webp",
+    "etag": "\"c742-gRfs1xJ0gBr73Zb4Ozli5AVNL/4\"",
+    "mtime": "2026-03-10T13:33:10.502Z",
+    "size": 51010,
+    "path": "../../.output/public/vas-operations.webp"
+  },
+  "/_fonts/JTUQjIg1_i6t8kCHKm459WxRxi7m0dR9pBOi-k2WqQjY0kt.woff2": {
+    "type": "font/woff2",
+    "etag": "\"2cd0-dXnty02OFl44obzDVntnflxXF9g\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 11472,
+    "path": "../../.output/public/_fonts/JTUQjIg1_i6t8kCHKm459WxRxi7m0dR9pBOi-k2WqQjY0kt.woff2"
+  },
+  "/_fonts/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA-MFc2eeBED5.woff2": {
+    "type": "font/woff2",
+    "etag": "\"9100-ZJdHfxS3JRUh43ACOvnZy8hg7gs\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 37120,
+    "path": "../../.output/public/_fonts/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA-MFc2eeBED5.woff2"
+  },
+  "/_fonts/JTUQjIg1_i6t8kCHKm459WxRxy7m0dR9pBOi-rYj8wLpElt.woff2": {
+    "type": "font/woff2",
+    "etag": "\"11b04-UcIO5QT4yJV29GMJwzsgA5dNOok\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 72452,
+    "path": "../../.output/public/_fonts/JTUQjIg1_i6t8kCHKm459WxRxy7m0dR9pBOi-rYj8wLpElt.woff2"
+  },
+  "/novanet-logo-2025.svg": {
+    "type": "image/svg+xml",
+    "etag": "\"ac6-E0mRmFrvG/ldEVX0mV4wly5GpKM\"",
+    "mtime": "2026-03-10T13:33:10.501Z",
+    "size": 2758,
+    "path": "../../.output/public/novanet-logo-2025.svg"
+  },
+  "/_fonts/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ-H6Cn7UXXW4.woff2": {
+    "type": "font/woff2",
+    "etag": "\"297c-xQzg/9K7JnQi6KX/KSly177MT6Y\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 10620,
+    "path": "../../.output/public/_fonts/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ-H6Cn7UXXW4.woff2"
+  },
+  "/_fonts/JTUQjIg1_i6t8kCHKm459WxRzS7m0dR9pBOi-jJK1UGOcIn.woff2": {
+    "type": "font/woff2",
+    "etag": "\"56d0-0rCf1XkiG94FdDh4lvFF3xo14zw\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 22224,
+    "path": "../../.output/public/_fonts/JTUQjIg1_i6t8kCHKm459WxRzS7m0dR9pBOi-jJK1UGOcIn.woff2"
+  },
+  "/_fonts/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi-q4zBeV1IkB.woff2": {
+    "type": "font/woff2",
+    "etag": "\"5f5c-V2g2UZSv08cs68dXB2poD+l713M\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 24412,
+    "path": "../../.output/public/_fonts/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi-q4zBeV1IkB.woff2"
+  },
+  "/_fonts/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ-209xZCjqgx.woff2": {
+    "type": "font/woff2",
+    "etag": "\"5e08-GgYJoVx4K95to3MuCZ/UqPjvotI\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 24072,
+    "path": "../../.output/public/_fonts/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ-209xZCjqgx.woff2"
+  },
+  "/_fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ-bD8JI5cQ43.woff2": {
+    "type": "font/woff2",
+    "etag": "\"10a80-wz+Iv3fkQfHOyTWB9c05VA7SEjI\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 68224,
+    "path": "../../.output/public/_fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ-bD8JI5cQ43.woff2"
+  },
+  "/_fonts/fonts.gstatic-16dGDHNppr.woff": {
+    "type": "font/woff",
+    "etag": "\"13648-/9erHNpyOA36nsqGIOHcXUuDY7A\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 79432,
+    "path": "../../.output/public/_fonts/fonts.gstatic-16dGDHNppr.woff"
+  },
+  "/_fonts/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ-ARwkHo0cPP.woff2": {
+    "type": "font/woff2",
+    "etag": "\"53f4-xH5kk8S517jMUd3AoIf6iXe2mD8\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 21492,
+    "path": "../../.output/public/_fonts/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ-ARwkHo0cPP.woff2"
+  },
+  "/_fonts/fonts.gstatic-2FfwDva7qD.woff": {
+    "type": "font/woff",
+    "etag": "\"70a4-WI9vXZEyLs38ZTHN1ENtMmzcNWo\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 28836,
+    "path": "../../.output/public/_fonts/fonts.gstatic-2FfwDva7qD.woff"
+  },
+  "/_fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y-faOZacC1kw.woff2": {
+    "type": "font/woff2",
+    "etag": "\"8ab4-tnEd7LoNVxtTjKAd6KbnCuTSGa8\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 35508,
+    "path": "../../.output/public/_fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y-faOZacC1kw.woff2"
+  },
+  "/_fonts/fonts.gstatic-6erMrHsSEJ.woff": {
+    "type": "font/woff",
+    "etag": "\"14880-x19YSilMpFWD44a5f11guoDsLog\"",
+    "mtime": "2026-03-10T13:33:10.495Z",
+    "size": 84096,
+    "path": "../../.output/public/_fonts/fonts.gstatic-6erMrHsSEJ.woff"
+  },
+  "/_fonts/fonts.gstatic-7r8RWIwQJp.woff": {
+    "type": "font/woff",
+    "etag": "\"66f0-/W+o0nTTmr68/ZP8SbJceslivrc\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 26352,
+    "path": "../../.output/public/_fonts/fonts.gstatic-7r8RWIwQJp.woff"
+  },
+  "/_fonts/fonts.gstatic-BJgkGhKPE5.woff": {
+    "type": "font/woff",
+    "etag": "\"6674-cVi1T0Hk9pBXgMyVoZ4yzD7edZs\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 26228,
+    "path": "../../.output/public/_fonts/fonts.gstatic-BJgkGhKPE5.woff"
+  },
+  "/_fonts/fonts.gstatic-8MKMoLFruQ.woff": {
+    "type": "font/woff",
+    "etag": "\"145e8-vBykSn2WL6Ijts6rf1XvbeVS7Yo\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 83432,
+    "path": "../../.output/public/_fonts/fonts.gstatic-8MKMoLFruQ.woff"
+  },
+  "/_fonts/fonts.gstatic-97f5vJwqPy.woff": {
+    "type": "font/woff",
+    "etag": "\"15b70-B+PrrN9ZOhwhV3JRGW9UuII+qPM\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 88944,
+    "path": "../../.output/public/_fonts/fonts.gstatic-97f5vJwqPy.woff"
+  },
+  "/_fonts/fonts.gstatic-BXaT12VRKk.woff": {
+    "type": "font/woff",
+    "etag": "\"716c-1eaxVCI12amlnavBx+hkzIdJOc8\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 29036,
+    "path": "../../.output/public/_fonts/fonts.gstatic-BXaT12VRKk.woff"
+  },
+  "/_fonts/fonts.gstatic-H8Wlf3ayNf.woff": {
+    "type": "font/woff",
+    "etag": "\"14c04-5hRzZa3VCMnF+7YSW4TY3f6DqD4\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 84996,
+    "path": "../../.output/public/_fonts/fonts.gstatic-H8Wlf3ayNf.woff"
+  },
+  "/_fonts/fonts.gstatic-GH2lQzPU4s.woff": {
+    "type": "font/woff",
+    "etag": "\"722c-vMB9peTjlF53Q6DMcU+D+PLzAOM\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 29228,
+    "path": "../../.output/public/_fonts/fonts.gstatic-GH2lQzPU4s.woff"
+  },
+  "/_fonts/fonts.gstatic-KUvySlGRPe.woff": {
+    "type": "font/woff",
+    "etag": "\"15df8-BIRuqGH9KvkavGdpWNjwdQbMrOQ\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 89592,
+    "path": "../../.output/public/_fonts/fonts.gstatic-KUvySlGRPe.woff"
+  },
+  "/_fonts/fonts.gstatic-LE7oQl7YuS.woff": {
+    "type": "font/woff",
+    "etag": "\"6878-oqTS5Do1LsI9Ls9egVRzDNqMbls\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 26744,
+    "path": "../../.output/public/_fonts/fonts.gstatic-LE7oQl7YuS.woff"
+  },
+  "/_fonts/fonts.gstatic-N7Qqw7z1V4.woff": {
+    "type": "font/woff",
+    "etag": "\"6758-G0pPLC9/0THc91OpCXydaYzJdQ4\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 26456,
+    "path": "../../.output/public/_fonts/fonts.gstatic-N7Qqw7z1V4.woff"
+  },
+  "/_fonts/fonts.gstatic-RoGM4YARwS.woff": {
+    "type": "font/woff",
+    "etag": "\"146d0-KuEc78a5qhLn+dtxuH240DP3RCs\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 83664,
+    "path": "../../.output/public/_fonts/fonts.gstatic-RoGM4YARwS.woff"
+  },
+  "/_fonts/fonts.gstatic-TlWjzuvDsl.woff": {
+    "type": "font/woff",
+    "etag": "\"6784-1Jk6N0zlhGn8OE/zux1/PLNFv60\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 26500,
+    "path": "../../.output/public/_fonts/fonts.gstatic-TlWjzuvDsl.woff"
+  },
+  "/_fonts/fonts.gstatic-Qx0SKeFpPB.woff": {
+    "type": "font/woff",
+    "etag": "\"157cc-LX4F/aXvXPpgoi7mEmwrrrHsqNk\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 88012,
+    "path": "../../.output/public/_fonts/fonts.gstatic-Qx0SKeFpPB.woff"
+  },
+  "/_fonts/fonts.gstatic-Ryq6I4AYA1.woff": {
+    "type": "font/woff",
+    "etag": "\"1546c-8Mfgd8ZLGPlTAdm5hCp9zF8AyWY\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 87148,
+    "path": "../../.output/public/_fonts/fonts.gstatic-Ryq6I4AYA1.woff"
+  },
+  "/_fonts/fonts.gstatic-UJQejDvfSA.woff": {
+    "type": "font/woff",
+    "etag": "\"148a0-dpu0aLYBDE7RkHzBVMPIYB373yE\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 84128,
+    "path": "../../.output/public/_fonts/fonts.gstatic-UJQejDvfSA.woff"
+  },
+  "/_fonts/fonts.gstatic-WISircT3Ay.woff": {
+    "type": "font/woff",
+    "etag": "\"15700-nwlcbsN89M0M9FGntSCUt2n3TF8\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 87808,
+    "path": "../../.output/public/_fonts/fonts.gstatic-WISircT3Ay.woff"
+  },
+  "/_fonts/fonts.gstatic-Wm06SQkM5q.woff": {
+    "type": "font/woff",
+    "etag": "\"6d3c-jFapN7Sa0emcbUnCsYeQ9EluYxA\"",
+    "mtime": "2026-03-10T13:33:10.496Z",
+    "size": 27964,
+    "path": "../../.output/public/_fonts/fonts.gstatic-Wm06SQkM5q.woff"
+  },
+  "/_fonts/fonts.gstatic-ZZcUJ0dZGQ.woff": {
+    "type": "font/woff",
+    "etag": "\"6624-cP6GGZz5xXEL7klrCxuAPSe3ET0\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 26148,
+    "path": "../../.output/public/_fonts/fonts.gstatic-ZZcUJ0dZGQ.woff"
+  },
+  "/_fonts/fonts.gstatic-dGwnB1HMC9.woff": {
+    "type": "font/woff",
+    "etag": "\"67e4-nRA4cJbxHC+jZObYEGHmUAEWd0o\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 26596,
+    "path": "../../.output/public/_fonts/fonts.gstatic-dGwnB1HMC9.woff"
+  },
+  "/_fonts/fonts.gstatic-mceRWd7pQS.woff": {
+    "type": "font/woff",
+    "etag": "\"71f8-2fFfFHRfKPEoHjZ66OvTfD27cms\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 29176,
+    "path": "../../.output/public/_fonts/fonts.gstatic-mceRWd7pQS.woff"
+  },
+  "/_fonts/fonts.gstatic-ebZ1FQWfN4.woff": {
+    "type": "font/woff",
+    "etag": "\"1564c-A8X0hQ/KKCj6f1BRmbdwM4MqQ80\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 87628,
+    "path": "../../.output/public/_fonts/fonts.gstatic-ebZ1FQWfN4.woff"
+  },
+  "/_fonts/fonts.gstatic-mysXohBMaI.woff": {
+    "type": "font/woff",
+    "etag": "\"66f8-9CtnN9/piyuufBiPg/5HPRwykXs\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 26360,
+    "path": "../../.output/public/_fonts/fonts.gstatic-mysXohBMaI.woff"
+  },
+  "/_fonts/fonts.gstatic-nkEEPPqN9q.woff": {
+    "type": "font/woff",
+    "etag": "\"7128-MBRKSbKAEId5j12DZFa61zxXocA\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 28968,
+    "path": "../../.output/public/_fonts/fonts.gstatic-nkEEPPqN9q.woff"
+  },
+  "/_fonts/fonts.gstatic-nflEkjPURb.woff": {
+    "type": "font/woff",
+    "etag": "\"14e88-zJsY/8PoyyFYkP/VdLD208nJITs\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 85640,
+    "path": "../../.output/public/_fonts/fonts.gstatic-nflEkjPURb.woff"
+  },
+  "/_fonts/fonts.gstatic-o6hISS2BTh.woff": {
+    "type": "font/woff",
+    "etag": "\"15288-4uFjfXXwOHqsHlM21IA03ysNm0Q\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 86664,
+    "path": "../../.output/public/_fonts/fonts.gstatic-o6hISS2BTh.woff"
+  },
+  "/_fonts/fonts.gstatic-oQCn0fU805.woff": {
+    "type": "font/woff",
+    "etag": "\"6c60-Oue5wWbqzm9URqMuSxSmWFQ4UVI\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 27744,
+    "path": "../../.output/public/_fonts/fonts.gstatic-oQCn0fU805.woff"
+  },
+  "/_fonts/fonts.gstatic-onL5mVShO5.woff": {
+    "type": "font/woff",
+    "etag": "\"143c8-qwUxkwsWCH3tTOhNBwgqfvuyYgk\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 82888,
+    "path": "../../.output/public/_fonts/fonts.gstatic-onL5mVShO5.woff"
+  },
+  "/_fonts/fonts.gstatic-opsx5Kv7wD.woff": {
+    "type": "font/woff",
+    "etag": "\"6d1c-pISFsv1j/9WuFKUKiWVmOCdnOpM\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 27932,
+    "path": "../../.output/public/_fonts/fonts.gstatic-opsx5Kv7wD.woff"
+  },
+  "/_fonts/fonts.gstatic-pttu3oBz9D.woff": {
+    "type": "font/woff",
+    "etag": "\"1449c-N5lm2LzTEPHQ+5RqQN5QuAUt6wI\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 83100,
+    "path": "../../.output/public/_fonts/fonts.gstatic-pttu3oBz9D.woff"
+  },
+  "/_fonts/fonts.gstatic-r1qDKebDht.woff": {
+    "type": "font/woff",
+    "etag": "\"152ac-prDvrHFM+7Zb4w8TB2vrwcp9nq4\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 86700,
+    "path": "../../.output/public/_fonts/fonts.gstatic-r1qDKebDht.woff"
+  },
+  "/_fonts/fonts.gstatic-unwaJy3gx7.woff": {
+    "type": "font/woff",
+    "etag": "\"15ffc-38NPG6mADc6cL29CeJqFf5zHf5E\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 90108,
+    "path": "../../.output/public/_fonts/fonts.gstatic-unwaJy3gx7.woff"
+  },
+  "/_fonts/fonts.gstatic-znLZtURMV2.woff": {
+    "type": "font/woff",
+    "etag": "\"7260-/edtZoxCe+EkANUTdT5ShgOdGTk\"",
+    "mtime": "2026-03-10T13:33:10.497Z",
+    "size": 29280,
+    "path": "../../.output/public/_fonts/fonts.gstatic-znLZtURMV2.woff"
+  },
+  "/_fonts/fonts.gstatic-xdqXBwHrHB.woff": {
+    "type": "font/woff",
+    "etag": "\"622c-vnxkejyXl30NRamyjGZAOKO/thM\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 25132,
+    "path": "../../.output/public/_fonts/fonts.gstatic-xdqXBwHrHB.woff"
+  },
+  "/_fonts/rP2Wp2ywxg089UriCZaSExd86J3t9jz86MvyyKK58UfivUw4aw-i8X0uYCzXR.woff2": {
+    "type": "font/woff2",
+    "etag": "\"507c-4CIrHltPBTsNTfIBkCofp5rGZmk\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 20604,
+    "path": "../../.output/public/_fonts/rP2Wp2ywxg089UriCZaSExd86J3t9jz86MvyyKK58UfivUw4aw-i8X0uYCzXR.woff2"
+  },
+  "/_fonts/rP2Wp2ywxg089UriCZaSExd86J3t9jz86MvyyKy58UfivUw-1ve8raB7pN.woff2": {
+    "type": "font/woff2",
+    "etag": "\"9b7c-J1g8XN0DIoPuhLPQOQJ4Rd19jio\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 39804,
+    "path": "../../.output/public/_fonts/rP2Wp2ywxg089UriCZaSExd86J3t9jz86MvyyKy58UfivUw-1ve8raB7pN.woff2"
+  },
+  "/_fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg-kYnTIvQrln.woff2": {
+    "type": "font/woff2",
+    "etag": "\"9074-eAz1m3cRzuDbKR8GkiymaxK2Xc8\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 36980,
+    "path": "../../.output/public/_fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg-kYnTIvQrln.woff2"
+  },
+  "/_fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0-yOgYBk2o26.woff2": {
+    "type": "font/woff2",
+    "etag": "\"4710-nJvFkh7mlst/gnY3cmhDXkIljbk\"",
+    "mtime": "2026-03-10T13:33:10.498Z",
+    "size": 18192,
+    "path": "../../.output/public/_fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0-yOgYBk2o26.woff2"
+  },
+  "/_nuxt/C-onVtjC.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"30a7-NACVGgyJLmv6sUP8OEXeWyRYEnM\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 12455,
+    "path": "../../.output/public/_nuxt/C-onVtjC.js"
+  },
+  "/_nuxt/C2KBthhx.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2869-SokI/hi88rM2kgUkaThcXKlj3do\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 10345,
+    "path": "../../.output/public/_nuxt/C2KBthhx.js"
+  },
+  "/_nuxt/C8S83_5E.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2ffa-kf3FpQ1ApoXIn10Emig5x8fXGVg\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 12282,
+    "path": "../../.output/public/_nuxt/C8S83_5E.js"
+  },
+  "/_nuxt/CDOfr4cX.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2ec2-nu23fswAOt9lO5znHOnyte7ato8\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 11970,
+    "path": "../../.output/public/_nuxt/CDOfr4cX.js"
+  },
+  "/_nuxt/D37cVcDi.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"d2a-67VgC5MUDcyeHmgeNEcEoBqVrKE\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 3370,
+    "path": "../../.output/public/_nuxt/D37cVcDi.js"
+  },
+  "/_nuxt/Ce33zgwb.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"6d94-wqwmQoXSBggG5a31PaOGY+Qc5bo\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 28052,
+    "path": "../../.output/public/_nuxt/Ce33zgwb.js"
+  },
+  "/_nuxt/Dh_YVSG0.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3357-I1EE9gcMUyRoaSn2tTNFZ+Z4WNk\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 13143,
+    "path": "../../.output/public/_nuxt/Dh_YVSG0.js"
+  },
+  "/_nuxt/CcD2FIaV.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3e160-NlPAaUHEnfVZEPlyRv5oGT2hR58\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 254304,
+    "path": "../../.output/public/_nuxt/CcD2FIaV.js"
+  },
+  "/_nuxt/GfUAAXQH.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2305-p9yRBORiGOhdM9ajbxsmj4d1m7s\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 8965,
+    "path": "../../.output/public/_nuxt/GfUAAXQH.js"
+  },
+  "/_nuxt/aHmQJ0Uw.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2b39-TEKL6zy9M3npc/SKrHqE/VsE2bA\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 11065,
+    "path": "../../.output/public/_nuxt/aHmQJ0Uw.js"
+  },
+  "/_nuxt/error-500.I1Dtv2V5.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"75a-vEGyJqldBVJrnMfcLsrGaHcxYl0\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 1882,
+    "path": "../../.output/public/_nuxt/error-500.I1Dtv2V5.css"
+  },
+  "/_nuxt/error-404.DL_4WIao.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"dca-KnjyV0UbpsrliiJzZx69defY74k\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 3530,
+    "path": "../../.output/public/_nuxt/error-404.DL_4WIao.css"
+  },
+  "/_nuxt/index.CRydGa7y.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"2ae-yjaG+l2EVGKMmB+m3ouudJzNT50\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 686,
+    "path": "../../.output/public/_nuxt/index.CRydGa7y.css"
+  },
+  "/_nuxt/tRQjvLiG.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2dd4-NtpTslDAGIxHxbWolh9MkAUtCiA\"",
+    "mtime": "2026-03-10T13:33:10.500Z",
+    "size": 11732,
+    "path": "../../.output/public/_nuxt/tRQjvLiG.js"
+  },
+  "/_nuxt/builds/latest.json": {
+    "type": "application/json",
+    "etag": "\"47-gwoZvLx+URHKmGX+99kITAAIeig\"",
+    "mtime": "2026-03-10T13:33:10.492Z",
+    "size": 71,
+    "path": "../../.output/public/_nuxt/builds/latest.json"
+  },
+  "/_i18n/sZ5STTzE/en/messages.json": {
+    "type": "application/json",
+    "etag": "\"1ff7-ezjke0PmB11EySaua0KuILeIA+8\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 8183,
+    "path": "../../.output/public/_i18n/sZ5STTzE/en/messages.json"
+  },
+  "/_i18n/sZ5STTzE/es/messages.json": {
+    "type": "application/json",
+    "etag": "\"2380-RwnDTnNGzEtXFTRsrmlC/WZRfPA\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 9088,
+    "path": "../../.output/public/_i18n/sZ5STTzE/es/messages.json"
+  },
+  "/_i18n/sZ5STTzE/de/messages.json": {
+    "type": "application/json",
+    "etag": "\"24b8-Ec4+s6vdG6JJv0dAHdjvEl5h8n4\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 9400,
+    "path": "../../.output/public/_i18n/sZ5STTzE/de/messages.json"
+  },
+  "/_nuxt/builds/meta/1e4e5b41-537e-4d3b-b2df-c0720f1e64fe.json": {
+    "type": "application/json",
+    "etag": "\"5b-gcC/9AQlrwQuREHVwCqvVsxOwis\"",
+    "mtime": "2026-03-10T13:33:10.491Z",
+    "size": 91,
+    "path": "../../.output/public/_nuxt/builds/meta/1e4e5b41-537e-4d3b-b2df-c0720f1e64fe.json"
+  },
+  "/_nuxt/builds/meta/dev.json": {
+    "type": "application/json",
+    "etag": "\"37-pjnvSdGs/AhNcWlqY/kQL3Df+Es\"",
+    "mtime": "2026-03-10T13:33:10.491Z",
+    "size": 55,
+    "path": "../../.output/public/_nuxt/builds/meta/dev.json"
+  },
+  "/_i18n/sZ5STTzE/fr/messages.json": {
+    "type": "application/json",
+    "etag": "\"2565-jVgJNEc1VqLbf4TY3vUxMbnnmnw\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 9573,
+    "path": "../../.output/public/_i18n/sZ5STTzE/fr/messages.json"
+  },
+  "/_i18n/sZ5STTzE/zh-TW/messages.json": {
+    "type": "application/json",
+    "etag": "\"1d2a-nXoHQMJiVv1U47W3dQ1GK4JfelU\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 7466,
+    "path": "../../.output/public/_i18n/sZ5STTzE/zh-TW/messages.json"
+  },
+  "/_i18n/sZ5STTzE/tr/messages.json": {
+    "type": "application/json",
+    "etag": "\"2292-3eCYhmGhMTGBnl9FRcErQbglOzA\"",
+    "mtime": "2026-03-10T13:33:10.465Z",
+    "size": 8850,
+    "path": "../../.output/public/_i18n/sZ5STTzE/tr/messages.json"
+  },
+  "/_i18n/sZ5STTzE/he/messages.json": {
+    "type": "application/json",
+    "etag": "\"281a-2fi7rZyblZfYyxX307u5DL6iDZk\"",
+    "mtime": "2026-03-10T13:33:10.466Z",
+    "size": 10266,
+    "path": "../../.output/public/_i18n/sZ5STTzE/he/messages.json"
+  }
+};
 
 function readAsset (id) {
   const serverDir = dirname(fileURLToPath(globalThis._importMeta_.url));
@@ -3578,31 +4237,12 @@ const _messagesHandlerCached = defineCachedEventHandler(_cachedMessageLoader, {
 });
 const _J4U144 = _messagesHandlerCached;
 
-const _kBHZXQ = lazyEventHandler(() => {
-  const opts = useRuntimeConfig().ipx || {};
-  const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
-  const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
-  const httpStorage = opts.http?.domains ? ipxHttpStorage({ ...opts.http }) : void 0;
-  if (!fsStorage && !httpStorage) {
-    throw new Error("IPX storage is not configured!");
-  }
-  const ipxOptions = {
-    ...opts,
-    storage: fsStorage || httpStorage,
-    httpStorage
-  };
-  const ipx = createIPX(ipxOptions);
-  const ipxHandler = createIPXH3Handler(ipx);
-  return useBase(opts.baseURL, ipxHandler);
-});
-
 const _lazy_NpQxav = () => import('../_/renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _s8j6zg, lazy: false, middleware: true, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
   { route: '/_i18n/:hash/:locale/messages.json', handler: _J4U144, lazy: false, middleware: false, method: undefined },
-  { route: '/_ipx/**', handler: _kBHZXQ, lazy: false, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_NpQxav, lazy: true, middleware: false, method: undefined }
 ];
 
